@@ -3,8 +3,8 @@
     <string-array name="activity_art">
         <item>吉他</item>
         <item>绘画</item>
-        <item>扬琴</item>
-        <item>古筝</item>
+        <item>琵琶</item>
+        <item>古琴</item>
         <item>诗歌</item>
         <item>舞蹈</item>
         <item>歌曲</item>
@@ -43,7 +43,7 @@
         <item>图书漂流</item>
     </string-array>
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-        
+        <!-- API 14 theme customizations can go here. -->
     </style>
     <style name="Base.TextAppearance.AppCompat.Button">
         <item name="android:textSize">@dimen/abc_text_size_button_material</item>

@@ -9,7 +9,7 @@
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/sport_icon_01_blue" />
+        android:src="@drawable/art_icon_01_blue" />
 
     <TextView
         android:id="@+id/art_item_text"

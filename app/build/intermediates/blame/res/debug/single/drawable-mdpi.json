@@ -2,5 +2,9 @@
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\menu_background.png",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable-mdpi\\menu_background.png"
     }
 ]

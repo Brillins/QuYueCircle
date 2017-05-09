@@ -33,18 +33,18 @@ public class TitleStudyFragment extends Fragment {
 		study_gridView = (GridView) view.findViewById(R.id.study_grid_view);
 
 		mData = new ArrayList<Icon>();
-		mData.add(new Icon(R.drawable.sport_icon_01_blue, "自习"));
-		mData.add(new Icon(R.drawable.sport_icon_02_blue, "实验"));
-		mData.add(new Icon(R.drawable.sport_icon_03_blue, "辩论赛"));
-		mData.add(new Icon(R.drawable.sport_icon_04_blue, "书友会"));
-		mData.add(new Icon(R.drawable.sport_icon_05_blue, "数学建模"));
-		mData.add(new Icon(R.drawable.sport_icon_06_blue, "宣讲会"));
-		mData.add(new Icon(R.drawable.sport_icon_07_blue, "新软攀峰"));
-		mData.add(new Icon(R.drawable.sport_icon_08_blue, "英语写作"));
-		mData.add(new Icon(R.drawable.sport_icon_09_blue, "程序设计"));
-		mData.add(new Icon(R.drawable.sport_icon_10_blue, "机械设计"));
-		mData.add(new Icon(R.drawable.sport_icon_11_blue, "建筑结构设计"));
-		mData.add(new Icon(R.drawable.sport_icon_12_blue, "图书漂流"));
+		mData.add(new Icon(R.drawable.study_icon_01_pink, "自习"));
+		mData.add(new Icon(R.drawable.study_icon_02_pink, "实验"));
+		mData.add(new Icon(R.drawable.study_icon_03_pink, "辩论赛"));
+		mData.add(new Icon(R.drawable.study_icon_04_pink, "书友会"));
+		mData.add(new Icon(R.drawable.study_icon_05_pink, "数学建模"));
+		mData.add(new Icon(R.drawable.study_icon_06_pink, "宣讲会"));
+		mData.add(new Icon(R.drawable.study_icon_07_pink, "新软攀峰"));
+		mData.add(new Icon(R.drawable.study_icon_08_pink, "英语写作"));
+		mData.add(new Icon(R.drawable.study_icon_09_pink, "程序设计"));
+		mData.add(new Icon(R.drawable.study_icon_10_pink, "机械设计"));
+		mData.add(new Icon(R.drawable.study_icon_11_pink, "建筑结构设计"));
+		mData.add(new Icon(R.drawable.study_icon_12_pink, "图书漂流"));
 
 
 		mAdapter = new MyAdapter<Icon>(mData, R.layout.fragment_title_study_item) {
