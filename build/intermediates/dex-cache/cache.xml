@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\ASProjects\Library\app\libs\commons-collections-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="761ea405b9b37ced573d2df0d1e3a4e0f9edc668">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-collections-3.2.1_6949eacca1f8f0e5bb7ffbe962fd9ced017f6197\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASProjects\Library\app\libs\json-lib-2.4-jdk15.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="136743e0d12df4e785e62b48618cee169b2ae546">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\json-lib-2.4-jdk15_70ade0adc5eccd361e448cc59a1dc4a57b731534\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASProjects\Library\app\libs\commons-logging-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d859791fbf7d880591864bd4004d8442a8a3b81">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-logging-1.1.1_0a387f54d744bdd79514a6993aaf34d18c7a9c19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASProjects\Library\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3e1a8bb7c83a7628d9b7345de5206b32dd107bb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASProjects\Library\app\libs\commons-beanutils-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0c651d5103c649c12b20d53731643e5fffceb536">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-beanutils-1.8.0_21615a9f58aeb9ad4ca94e7b411364fd34db8493\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASProjects\Library\app\libs\nineoldandroids-library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-library-2.4.0_7790338543e87a721472775b58a8da87250115d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASProjects\Library\app\libs\ezmorph-1.0.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01e55d2a0253ea37745d33062852fd2c90027432">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\ezmorph-1.0.6_f49026a27f664959fb8ef48230279a305091e7a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASProjects\Library\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ceb04b19ab1f6f23da3431f496fab08e05292a9">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c28d3d0c2b589248d1605b4a53d333a502fc6310\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASProjects\Library\app\libs\commons-lang-2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="50596100265634884b6e6b487d935c35fda1a897">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-lang-2.5_ba9b3ead70acaaf477e13ab73e8eb41549757953\classes.dex" />
+    </item>
+
+</items>

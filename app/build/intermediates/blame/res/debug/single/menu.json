@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\xin_sheng_dao_hang.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\xin_sheng_dao_hang.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\dong_tai.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\dong_tai.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\dang_qian_jie_yue.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\dang_qian_jie_yue.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fa_xian.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\fa_xian.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\guan_cang_bu_ju.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\guan_cang_bu_ju.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\tong_zhi.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\tong_zhi.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\jie_yue_li_shi.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\jie_yue_li_shi.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\wei_zhang_jiao_kuan.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\wei_zhang_jiao_kuan.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\splash.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\splash.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\kai_fang_shi_jian.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\kai_fang_shi_jian.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\gui_zhang_zhi_du.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\gui_zhang_zhi_du.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\ben_guan_gai_kuang.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\ben_guan_gai_kuang.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\li_shi_yan_ge.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\li_shi_yan_ge.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\hu_dong_fragment2.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\hu_dong_fragment2.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]

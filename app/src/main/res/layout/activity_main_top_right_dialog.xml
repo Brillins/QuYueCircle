@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent">
+   
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"  
+       android:layout_marginTop="50dp">
+
+	   <LinearLayout
+    	    android:id="@+id/main_dialog_layout"
+	        android:layout_width="120dp"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical"
+        	android:background="#22292C" >
+
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content"
+    		    android:orientation="vertical">
+
+    			<TextView
+					android:layout_width="match_parent"
+    			    android:gravity="center"
+    			    android:layout_height="wrap_content"
+    			    android:paddingBottom="8dp"
+    			    android:paddingTop="8dp"
+    			    android:text="@string/action_register"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:background="@color/white" />
+
+    		</LinearLayout>
+
+		   <LinearLayout
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" 
+    		    android:orientation="vertical">
+
+			   <TextView
+				   android:layout_width="match_parent"
+				   android:gravity="center"
+				   android:layout_height="wrap_content"
+				   android:paddingBottom="8dp"
+				   android:paddingTop="8dp"
+				   android:text="@string/action_login"
+				   android:textColor="#fff"
+				   android:textSize="18sp" />
+			   <View
+				   android:layout_width="match_parent"
+				   android:layout_height="1dp"
+				   android:background="@color/white" />
+
+    		</LinearLayout>
+
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" 
+    		    android:orientation="vertical">
+
+    			<TextView
+					android:layout_width="match_parent"
+    			    android:gravity="center"
+    			    android:layout_height="wrap_content"
+    			    android:paddingBottom="8dp"
+    			    android:paddingTop="8dp"
+    			    android:text="@string/guancangbuju"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />  
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:background="@color/white" />
+
+    		</LinearLayout>
+        
+           
+       </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
