@@ -26,14 +26,25 @@
         <item>舞蹈</item>
         <item>歌曲</item>
         <item>书法</item>
-        <item>微电影</item>
+        <item>电影</item>
         <item>小说</item>
         <item>摄影</item>
         <item>表演</item>
     </string-array>
 
     <string-array name="activity_study">
-
+        <item>自习</item>
+        <item>实验</item>
+        <item>辩论赛</item>
+        <item>书友会</item>
+        <item>数学建模</item>
+        <item>宣讲会</item>
+        <item>新软攀峰</item>
+        <item>英语写作</item>
+        <item>程序设计</item>
+        <item>机械设计</item>
+        <item>建筑结构设计</item>
+        <item>图书漂流</item>
     </string-array>
 
 

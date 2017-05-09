@@ -4,10 +4,12 @@
     <color name="chengse">#FF6600</color>
     <color name="white">#ffffff</color>
     <color name="gray">#cccccc</color>
-     <color name="transparent">#00000000</color>
-     <color name="red">#CC0033</color>
-     <color name="zone_title_bg">#ffee71a1</color>
-     <color name="black">#000000</color>
-     <color name="light_sky_blue">#87CEFA</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#CC0033</color>
+    <color name="zone_title_bg">#ffee71a1</color>
+    <color name="black">#000000</color>
+    <color name="light_sky_blue">#87CEFA</color>
+    <color name="main_panel_bg_color">#FFFFF0</color>
+    
 
 </resources>
