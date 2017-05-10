@@ -14,13 +14,6 @@
     <string name="art">文艺</string>
     <string name="study">学习</string>
 
-
-    <string name="title_activity_splash">SplashActivity</string>
-    <string name="title_activity_ben_guan_gai_kuang">BenGuanGaiKuangActivity</string>
-    <string name="title_activity_li_shi_yan_ge">LiShiYanGeActivity</string>
-    <string name="title_activity_guan_cang_bu_ju">GuanCangBuJuActivity</string>
-    <string name="title_activity_gui_zhang_zhi_du">GuiZhangZhiDuActivity</string>
-    <string name="title_activity_kai_fang_shi_jian">KaiFangShiJianActivity</string>
     <string name="user_phone">手机</string>
     <string name="user_email">邮箱</string>
     <string name="user_name">用户名</string>

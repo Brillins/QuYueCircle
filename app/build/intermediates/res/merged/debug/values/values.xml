@@ -693,7 +693,6 @@
     <string name="app_name">悦趣</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="art">文艺</string>
-    <string name="benguangaikuang">本馆概况</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="college_name">学校名称</string>
@@ -705,13 +704,9 @@
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="friend">好友</string>
-    <string name="guancangbuju">馆藏布局</string>
-    <string name="guizhangzhidu">规章制度</string>
     <string name="hello_world">Hello World!!!</string>
     <string name="history">历史记录</string>
     <string name="joined">已加入</string>
-    <string name="kaifangshijian">开放时间</string>
-    <string name="lishiyange">历史沿革</string>
     <string name="password">密码</string>
     <string name="password_confirm">确定密码</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
@@ -730,14 +725,8 @@
     <string name="student_name">姓名</string>
     <string name="student_number">学号</string>
     <string name="study">学习</string>
-    <string name="title_activity_ben_guan_gai_kuang">BenGuanGaiKuangActivity</string>
-    <string name="title_activity_guan_cang_bu_ju">GuanCangBuJuActivity</string>
-    <string name="title_activity_gui_zhang_zhi_du">GuiZhangZhiDuActivity</string>
-    <string name="title_activity_kai_fang_shi_jian">KaiFangShiJianActivity</string>
-    <string name="title_activity_li_shi_yan_ge">LiShiYanGeActivity</string>
     <string name="title_activity_login">登录</string>
     <string name="title_activity_register">注册</string>
-    <string name="title_activity_splash">SplashActivity</string>
     <string name="user_email">邮箱</string>
     <string name="user_name">用户名</string>
     <string name="user_phone">手机</string>
