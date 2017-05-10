@@ -1,11 +1,9 @@
 package com.lovejoy.view;
 
-import com.lovejoy.activity.Login1Activity;
 import com.lovejoy.activity.LoginActivity;
-import com.lovejoy.activity.Register1Activity;
+import com.lovejoy.activity.RegisterActivity;
 import com.lovejoy.activity.R;
 import com.lovejoy.activity.CreateActivity;
-import com.lovejoy.activity.RegisterActivity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -53,7 +51,7 @@ public class AddPopWindow extends PopupWindow {
 
 			@Override
 			public void onClick(View v) {
-				context.startActivity(new Intent(context,Register1Activity.class));
+				context.startActivity(new Intent(context,RegisterActivity.class));
 			    context.overridePendingTransition(R.anim.activity_move_in_start, R.anim.activity_move_out_start);
 				AddPopWindow.this.dismiss();
 			}
@@ -63,7 +61,7 @@ public class AddPopWindow extends PopupWindow {
 
 			@Override
 			public void onClick(View v) {
-				context.startActivity(new Intent(context,Login1Activity.class));
+				context.startActivity(new Intent(context,LoginActivity.class));
 				context.overridePendingTransition(R.anim.activity_move_in_start, R.anim.activity_move_out_start);
 				AddPopWindow.this.dismiss();
 

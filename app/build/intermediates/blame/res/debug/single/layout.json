@@ -152,10 +152,6 @@
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\activity_main_top_right_dialog.xml"
     },
     {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login1.xml",
-        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\activity_login1.xml"
-    },
-    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "C:\\Users\\91534\\.android\\build-cache\\94a41489c75ccedcadb0ca48f92394da582fb993\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
