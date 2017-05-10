@@ -6,15 +6,15 @@ import java.util.Date;
 public class ActivityBriefInfor {
     private int activityId;//活动ID
     private String activityName;//活动名称
-    private Date createTime;//活动发布时间
+    private String createTime;//活动发布时间
     private String creatorName;//发布者昵称
     private int creatorImageId;//发布者头像Id
     private String abstractInfor;//信息摘要
     private int planMinNumber;//规定最少人数
     private int planMaxNumber;//规定最多人数
     private int currentNumber;//当前人数
-    private Date deadline;//活动报名截止时间
-    private Date startTime;//活动开始时间
+    private String deadline;//活动报名截止时间
+    private String startTime;//活动开始时间
 
     //活动ID函数
     public int getActivityId(){
@@ -33,10 +33,10 @@ public class ActivityBriefInfor {
     }
 
     //活动发布时间函数
-    public Date getCreateTime(){
+    public String getCreateTime(){
         return createTime;
     }
-    public void setCreateTime(Date ct){
+    public void setCreateTime(String ct){
         this.createTime = ct;
     }
 
@@ -90,18 +90,18 @@ public class ActivityBriefInfor {
     }
 
     //活动报名截止时间
-    public Date getDeadline(){
+    public String getDeadline(){
         return deadline;
     }
-    public void setDeadline(Date dl){
+    public void setDeadline(String dl){
         this.deadline = dl;
     }
 
     //活动开始时间
-    public Date getStartTime(){
+    public String getStartTime(){
         return startTime;
     }
-    public void setStartTime(Date st){
+    public void setStartTime(String st){
         this.startTime = st;
     }
 }

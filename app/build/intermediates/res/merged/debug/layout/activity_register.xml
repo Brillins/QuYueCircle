@@ -47,7 +47,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="8"
                 android:gravity="center"
-                android:text="@string/action_login"
+                android:text="@string/action_register"
                 android:textColor="@android:color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" >
