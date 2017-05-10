@@ -4,7 +4,6 @@ import com.lovejoy.activity.R;
 import com.lovejoy.adapter.CircleAdapter;
 import com.lovejoy.entity.CircleIcon;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -19,7 +18,6 @@ import java.util.ArrayList;
 
 public class TitleArtFragment extends Fragment {
 
-	private Context mContext;
 	private GridView art_gridView;
 	private BaseAdapter mAdapter = null;
 	private ArrayList<CircleIcon> mData = null;
@@ -29,22 +27,30 @@ public class TitleArtFragment extends Fragment {
 			Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_title_art, container, false);
 
-		mContext = view.getContext();
-		art_gridView = (GridView) view.findViewById(R.id.art_grid_view);
+
+
+		return view;
+	}
+
+	@Override
+	public void onActivityCreated(Bundle savedInstanceState) {
+		super.onActivityCreated(savedInstanceState);
+
+		art_gridView = (GridView) getActivity().findViewById(R.id.art_grid_view);
 
 		mData = new ArrayList<CircleIcon>();
-		mData.add(new CircleIcon(R.drawable.art_icon_01_blue, "吉他"));
-		mData.add(new CircleIcon(R.drawable.art_icon_02_blue, "绘画"));
-		mData.add(new CircleIcon(R.drawable.art_icon_03_blue, "琵琶"));
-		mData.add(new CircleIcon(R.drawable.art_icon_04_blue, "古琴"));
-		mData.add(new CircleIcon(R.drawable.art_icon_05_blue, "诗歌"));
-		mData.add(new CircleIcon(R.drawable.art_icon_06_blue, "舞蹈"));
-		mData.add(new CircleIcon(R.drawable.art_icon_07_blue, "歌曲"));
-		mData.add(new CircleIcon(R.drawable.art_icon_08_blue, "书法"));
-		mData.add(new CircleIcon(R.drawable.art_icon_09_blue, "电影"));
-		mData.add(new CircleIcon(R.drawable.art_icon_10_blue, "小说"));
-		mData.add(new CircleIcon(R.drawable.art_icon_11_blue, "摄影"));
-		mData.add(new CircleIcon(R.drawable.art_icon_12_blue, "表演"));
+		mData.add(new CircleIcon(R.drawable.art_icon_01_pink, "吉他"));
+		mData.add(new CircleIcon(R.drawable.art_icon_02_pink, "绘画"));
+		mData.add(new CircleIcon(R.drawable.art_icon_03_pink, "琵琶"));
+		mData.add(new CircleIcon(R.drawable.art_icon_04_pink, "古琴"));
+		mData.add(new CircleIcon(R.drawable.art_icon_05_pink, "诗歌"));
+		mData.add(new CircleIcon(R.drawable.art_icon_06_pink, "舞蹈"));
+		mData.add(new CircleIcon(R.drawable.art_icon_07_pink, "歌曲"));
+		mData.add(new CircleIcon(R.drawable.art_icon_08_pink, "书法"));
+		mData.add(new CircleIcon(R.drawable.art_icon_09_pink, "电影"));
+		mData.add(new CircleIcon(R.drawable.art_icon_10_pink, "小说"));
+		mData.add(new CircleIcon(R.drawable.art_icon_11_pink, "摄影"));
+		mData.add(new CircleIcon(R.drawable.art_icon_12_pink, "表演"));
 
 
 		mAdapter = new CircleAdapter<CircleIcon>(mData, R.layout.fragment_title_art_item) {
@@ -61,11 +67,10 @@ public class TitleArtFragment extends Fragment {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				int p = position + 1;
-				Toast.makeText(mContext, "你点击了第" + p + "项", Toast.LENGTH_SHORT).show();
+				Toast.makeText(getContext(), "你点击了第" + p + "项", Toast.LENGTH_SHORT).show();
 			}
 		});
 
-		return view;
 	}
 
 }

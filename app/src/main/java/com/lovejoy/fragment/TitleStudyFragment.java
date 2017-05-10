@@ -4,7 +4,6 @@ import com.lovejoy.activity.R;
 import com.lovejoy.adapter.CircleAdapter;
 import com.lovejoy.entity.CircleIcon;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -19,7 +18,6 @@ import java.util.ArrayList;
 
 public class TitleStudyFragment extends Fragment {
 
-	private Context mContext;
 	private GridView study_gridView;
 	private BaseAdapter mAdapter = null;
 	private ArrayList<CircleIcon> mData = null;
@@ -29,8 +27,16 @@ public class TitleStudyFragment extends Fragment {
 			Bundle savedInstanceState) {
 		View view=inflater.inflate(R.layout.fragment_title_study, container, false);
 
-		mContext = view.getContext();
-		study_gridView = (GridView) view.findViewById(R.id.study_grid_view);
+
+
+		return view;
+	}
+
+	@Override
+	public void onActivityCreated(Bundle savedInstanceState) {
+		super.onActivityCreated(savedInstanceState);
+
+		study_gridView = (GridView) getActivity().findViewById(R.id.study_grid_view);
 
 		mData = new ArrayList<CircleIcon>();
 		mData.add(new CircleIcon(R.drawable.study_icon_01_pink, "自习"));
@@ -61,12 +67,9 @@ public class TitleStudyFragment extends Fragment {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				int p = position + 1;
-				Toast.makeText(mContext, "你点击了第" + p + "项", Toast.LENGTH_SHORT).show();
+				Toast.makeText(getContext(), "你点击了第" + p + "项", Toast.LENGTH_SHORT).show();
 			}
 		});
-
-		return view;
 	}
-	
 
 }

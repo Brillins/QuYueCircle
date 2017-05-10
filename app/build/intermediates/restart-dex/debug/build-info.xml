@@ -2,26 +2,30 @@
 <instant-run
     abi="x86"
     api-level="24"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="420dpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1494408588703"
+    timestamp="1494413616601"
     token="6945551731894297979"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="389" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="764" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="124" />
     <task
         name="verifier"
-        duration="0" />
+        duration="6" />
+
+    <artifact
+        location="E:\ASProjects\Library\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
@@ -85,17 +89,6 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494407532280"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\ASProjects\Library\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\ASProjects\Library\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
         timestamp="1494408559706"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
@@ -110,7 +103,27 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494408588703"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1494409762377"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\ASProjects\Library\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1494413520487"
+        verifier="FIELD_REMOVED" >
+        <artifact
+            location="E:\ASProjects\Library\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1494413616601"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="E:\ASProjects\Library\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
 
 </instant-run>
