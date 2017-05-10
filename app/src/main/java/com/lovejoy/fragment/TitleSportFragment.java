@@ -51,7 +51,6 @@ public class TitleSportFragment extends Fragment {
         mData.add(new CircleIcon(R.drawable.sport_icon_11_pink, "棒球"));
         mData.add(new CircleIcon(R.drawable.sport_icon_12_pink, "太极拳"));
 
-
         mAdapter = new CircleAdapter<CircleIcon>(mData, R.layout.fragment_title_sport_item) {
             @Override
             public void bindView(ViewHolder holder, CircleIcon obj) {

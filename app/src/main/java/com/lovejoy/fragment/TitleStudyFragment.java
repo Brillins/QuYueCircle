@@ -27,8 +27,6 @@ public class TitleStudyFragment extends Fragment {
 			Bundle savedInstanceState) {
 		View view=inflater.inflate(R.layout.fragment_title_study, container, false);
 
-
-
 		return view;
 	}
 
@@ -51,7 +49,6 @@ public class TitleStudyFragment extends Fragment {
 		mData.add(new CircleIcon(R.drawable.study_icon_10_pink, "机械设计"));
 		mData.add(new CircleIcon(R.drawable.study_icon_11_pink, "建筑结构设计"));
 		mData.add(new CircleIcon(R.drawable.study_icon_12_pink, "图书漂流"));
-
 
 		mAdapter = new CircleAdapter<CircleIcon>(mData, R.layout.fragment_title_study_item) {
 			@Override
