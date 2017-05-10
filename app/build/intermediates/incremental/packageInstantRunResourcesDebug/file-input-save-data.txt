@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed May 10 12:11:30 CST 2017
+#Thu May 11 02:03:58 CST 2017
 20.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 340.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_vector_test.xml
@@ -239,7 +239,7 @@
 158.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 52.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\sport_icon_10_pink.png
 329.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-355.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\avd_hide_password.xml
+355.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\study_icon_10_blue.png
 68.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 85.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v21\\notification_action.xml
 388.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_seekbar_tick_mark_material.xml
@@ -766,7 +766,7 @@
 157.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 51.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\fade_out.xml
 328.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-354.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_profile.png
+354.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\avd_hide_password.xml
 67.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 84.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_fab_in.xml
 387.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\start_third.xml
@@ -965,7 +965,7 @@
 102.set=ANDROID_RESOURCE
 159.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 53.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\study_icon_09_blue.png
-356.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\study_icon_10_blue.png
+356.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_profile.png
 69.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 86.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png
 400.set=ANDROID_RESOURCE

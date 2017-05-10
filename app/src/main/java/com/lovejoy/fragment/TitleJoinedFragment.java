@@ -9,11 +9,12 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextClock;
+
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,6 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TitleJoinedFragment extends Fragment {
+
 
 	ListView joinedListView;//声明一个ListView对象
 
@@ -35,5 +37,13 @@ public class TitleJoinedFragment extends Fragment {
 
 		return view;
 	}
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+
+    }
+
 
 }
