@@ -57,13 +57,10 @@
             android:name="com.lovejoy.activity.CreateActivity"
             android:label="@string/create_activity" />
         <activity
-            android:name="com.lovejoy.activity.RegisterActivity"
-            android:label="@string/title_activity_register" />
-        <activity
             android:name="com.lovejoy.activity.LoginActivity"
             android:label="@string/title_activity_login" />
         <activity
-            android:name="com.lovejoy.activity.Register1Activity"
+            android:name="com.lovejoy.activity.RegisterActivity"
             android:label="@string/title_activity_register" />
 
         <provider

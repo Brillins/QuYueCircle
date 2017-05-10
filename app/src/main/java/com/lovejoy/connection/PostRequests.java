@@ -62,8 +62,9 @@ public class PostRequests {
            // TODO Auto-generated catch block
            e.printStackTrace();
        }
-		if(flag==false)
-			message.put("errorcode", "connecting fault");
+		if(flag==false) {
+            message.put("errorcode", "connecting fault");
+        }
 		return message;
 	}
 }

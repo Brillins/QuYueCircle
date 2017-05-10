@@ -26,7 +26,7 @@
     <string name="title_activity_guan_cang_bu_ju">GuanCangBuJuActivity</string>
     <string name="title_activity_gui_zhang_zhi_du">GuiZhangZhiDuActivity</string>
     <string name="title_activity_kai_fang_shi_jian">KaiFangShiJianActivity</string>
-
+    <string name="user_phone">手机</string>
     <string name="user_email">邮箱</string>
     <string name="user_name">用户名</string>
     <string name="password">密码</string>

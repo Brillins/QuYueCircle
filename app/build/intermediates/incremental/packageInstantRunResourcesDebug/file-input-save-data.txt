@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed May 10 10:51:52 CST 2017
+#Wed May 10 12:11:30 CST 2017
 20.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 340.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_vector_test.xml
@@ -13,7 +13,7 @@
 389.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 236.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_media_custom.xml
 8.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-407.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\view_list_item.xml
+407.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v21\\notification_template_icon_group.xml
 118.set=ANDROID_RESOURCE
 0.set=ANDROID_RESOURCE
 191.set=ANDROID_RESOURCE
@@ -31,7 +31,7 @@
 192.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v23\\abc_control_background_material.xml
 363.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\study_icon_07_blue.png
 76.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-396.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png
+396.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\study_icon_08_pink.png
 259.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\study_icon_12_blue.png
 97.set=ANDROID_RESOURCE
 348.set=ANDROID_RESOURCE
@@ -47,7 +47,7 @@
 66.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 189.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 83.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\sport_icon_01_blue.png
-386.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\study_icon_02_blue.png
+386.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\start_second.xml
 74.set=ANDROID_RESOURCE
 325.set=ANDROID_RESOURCE
 5.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\ic_preference_last_pressed.9.png
@@ -143,7 +143,7 @@
 384.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 3.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 231.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_bottom_sheet_dialog.xml
-402.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\fragment_dongtai_header.xml
+402.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_expanded_menu_layout.xml
 264.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_textfield_search_material.xml
 297.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\art_icon_07_pink.png
 127.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\tab_find_frd_pressed.png
@@ -153,7 +153,7 @@
 4.set=ANDROID_RESOURCE
 71.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 195.set=ANDROID_RESOURCE
-391.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_5_b.png
+391.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_btn_colored_text_material.xml
 254.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml
 47.set=ANDROID_RESOURCE
 287.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_action_bar_title_item.xml
@@ -167,7 +167,6 @@
 0.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_secondary_text_material_dark.xml
 94.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 218.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-415.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\study_icon_03_pink.png
 277.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_screen_toolbar.xml
 78.set=ANDROID_RESOURCE
 312.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -209,7 +208,7 @@
 205.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\fa_xian.xml
 88.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 238.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v11\\notification_template_big_media.xml
-409.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png
+409.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_btn_default_mtrl_shape.xml
 138.set=ANDROID_RESOURCE
 272.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 102.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -225,7 +224,7 @@
 365.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_part_chronometer.xml
 115.set=ANDROID_RESOURCE
 78.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-398.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\preference_last_item.xml
+398.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml
 228.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_item_background_holo_light.xml
 413.set=ANDROID_RESOURCE
 400.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -243,7 +242,7 @@
 355.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\avd_hide_password.xml
 68.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 85.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v21\\notification_action.xml
-388.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\start_third.xml
+388.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_seekbar_tick_mark_material.xml
 94.set=ANDROID_RESOURCE
 345.set=ANDROID_RESOURCE
 7.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png
@@ -296,7 +295,7 @@
 330.set=ANDROID_RESOURCE
 213.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 253.set=ANDROID_RESOURCE
-410.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_btn_default_mtrl_shape.xml
+410.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png
 131.set=ANDROID_RESOURCE
 246.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 176.set=ANDROID_RESOURCE
@@ -345,7 +344,7 @@
 386.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 5.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 233.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\sport_icon_06_blue.png
-404.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png
+404.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\a3.jpg
 266.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png
 299.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_list_menu_item_icon.xml
 129.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\avd_hide_password_2.xml
@@ -357,7 +356,7 @@
 163.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 360.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\ic_preference_pressed.9.png
 73.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-393.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\sport_icon_06_pink.png
+393.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png
 256.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\frame.png
 67.set=ANDROID_RESOURCE
 318.set=ANDROID_RESOURCE
@@ -372,7 +371,7 @@
 63.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 186.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 80.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\avd_show_password_2.xml
-383.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_register1.xml
+383.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\ben_guan_gai_kuang.xml
 44.set=ANDROID_RESOURCE
 2.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\title_function_bg.9.png
 96.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -470,7 +469,6 @@
 0.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 188.set=ANDROID_RESOURCE
 261.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_btn_borderless_material.xml
-415.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 294.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\sport_icon_08_blue.png
 277.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 396.set=ANDROID_RESOURCE
@@ -496,7 +494,7 @@
 91.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 215.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 273.set=ANDROID_RESOURCE
-412.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\dang_qian_jie_yue.xml
+412.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_3_a.png
 151.set=ANDROID_RESOURCE
 248.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 274.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\study_icon_02_pink.png
@@ -539,7 +537,7 @@
 388.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 235.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_register.xml
 7.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-406.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\return_icon.png
+406.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\view_list_item.xml
 108.set=ANDROID_RESOURCE
 181.set=ANDROID_RESOURCE
 268.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_search_api_material.xml
@@ -552,7 +550,7 @@
 207.set=ANDROID_RESOURCE
 362.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_dialog_material_background.xml
 75.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-395.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\design_ic_visibility.png
+395.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png
 258.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\fragment_title_study.xml
 87.set=ANDROID_RESOURCE
 338.set=ANDROID_RESOURCE
@@ -565,7 +563,7 @@
 65.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 188.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 82.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\sport_icon_05_pink.png
-385.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\mm_submenu.xml
+385.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\study_icon_02_blue.png
 64.set=ANDROID_RESOURCE
 315.set=ANDROID_RESOURCE
 4.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png
@@ -668,7 +666,7 @@
 163.set=ANDROID_RESOURCE
 230.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_item_background_holo_dark.xml
 2.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-401.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\push_top_out2.xml
+401.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\fragment_dongtai_header.xml
 263.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\dong_tai.xml
 279.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 296.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
@@ -680,7 +678,7 @@
 140.set=ANDROID_RESOURCE
 70.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 185.set=ANDROID_RESOURCE
-390.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\notification_tile_bg.xml
+390.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_5_b.png
 227.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 393.set=ANDROID_RESOURCE
 253.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\menu_background.png
@@ -696,7 +694,7 @@
 93.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 217.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 293.set=ANDROID_RESOURCE
-414.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\art_icon_02_pink.png
+414.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\study_icon_03_pink.png
 276.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\fragment_quanzi.xml
 68.set=ANDROID_RESOURCE
 319.set=ANDROID_RESOURCE
@@ -738,7 +736,7 @@
 87.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 237.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\sport_icon_01_pink.png
 9.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-408.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v21\\notification_template_icon_group.xml
+408.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png
 128.set=ANDROID_RESOURCE
 271.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 101.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -755,7 +753,7 @@
 364.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\splash.xml
 105.set=ANDROID_RESOURCE
 77.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-397.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\study_icon_08_pink.png
+397.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\preference_last_item.xml
 403.set=ANDROID_RESOURCE
 358.set=ANDROID_RESOURCE
 30.set=ANDROID_RESOURCE
@@ -771,7 +769,7 @@
 354.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_profile.png
 67.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 84.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_fab_in.xml
-387.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\start_second.xml
+387.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\start_third.xml
 84.set=ANDROID_RESOURCE
 335.set=ANDROID_RESOURCE
 6.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png
@@ -863,7 +861,7 @@
 385.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 4.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 232.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\title_bar_menu.png
-403.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_expanded_menu_layout.xml
+403.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png
 265.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\residemenu_info.xml
 298.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\residemenu_item.xml
 128.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_popup_enter.xml
@@ -872,7 +870,7 @@
 162.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 160.set=ANDROID_RESOURCE
 72.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-392.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_btn_colored_text_material.xml
+392.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\sport_icon_06_pink.png
 255.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\xx_selector.xml
 57.set=ANDROID_RESOURCE
 308.set=ANDROID_RESOURCE
@@ -917,7 +915,6 @@
 92.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\titlebar_menu_selector.xml
 369.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 216.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_activity_chooser_view_list_item.xml
-415.set=ANDROID_RESOURCE
 42.set=ANDROID_RESOURCE
 249.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\xin_sheng_dao_hang.xml
 216.set=ANDROID_RESOURCE
@@ -951,7 +948,7 @@
 366.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_fab_out.xml
 125.set=ANDROID_RESOURCE
 79.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-399.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml
+399.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_bottom_navigation_item.xml
 229.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_4_a.png
 230.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 401.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -972,7 +969,7 @@
 69.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 86.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png
 400.set=ANDROID_RESOURCE
-389.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_seekbar_tick_mark_material.xml
+389.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\notification_tile_bg.xml
 355.set=ANDROID_RESOURCE
 8.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\fragment_title_study_item.xml
 390.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -1024,7 +1021,7 @@
 90.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 214.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 263.set=ANDROID_RESOURCE
-411.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png
+411.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\dang_qian_jie_yue.xml
 141.set=ANDROID_RESOURCE
 247.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 273.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_5_a.png
@@ -1068,7 +1065,7 @@
 387.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 234.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png
 6.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-405.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\a3.jpg
+405.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\return_icon.png
 171.set=ANDROID_RESOURCE
 267.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\selector_dongtai.xml
 23.set=ANDROID_RESOURCE
@@ -1078,8 +1075,8 @@
 164.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 361.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\a2.jpg
 74.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-394.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png
-count=416
+394.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\design_ic_visibility.png
+count=415
 257.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_popup_exit.xml
 77.set=ANDROID_RESOURCE
 328.set=ANDROID_RESOURCE
@@ -1091,7 +1088,7 @@ count=416
 64.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 187.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 81.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_spinner_textfield_background_material.xml
-384.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\ben_guan_gai_kuang.xml
+384.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\mm_submenu.xml
 54.set=ANDROID_RESOURCE
 305.set=ANDROID_RESOURCE
 3.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\radio_zone_hot_selector.xml
@@ -1183,7 +1180,7 @@ count=416
 382.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 153.set=ANDROID_RESOURCE
 1.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
-400.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_bottom_navigation_item.xml
+400.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\push_top_out2.xml
 7.set=ANDROID_RESOURCE
 198.set=ANDROID_RESOURCE
 262.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_part_time.xml
@@ -1211,7 +1208,7 @@ count=416
 92.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 216.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 283.set=ANDROID_RESOURCE
-413.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_3_a.png
+413.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\art_icon_02_pink.png
 161.set=ANDROID_RESOURCE
 249.base=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_
 275.file=E\:\\ASProjects\\Library\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\title_btn_function.png
