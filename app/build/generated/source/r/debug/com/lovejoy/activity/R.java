@@ -3382,7 +3382,7 @@ containing a value of this type.
         public static final int iv_background=0x7f0d00e7;
         public static final int iv_icon=0x7f0d00f2;
         public static final int iv_shadow=0x7f0d00e8;
-        public static final int joined_list=0x7f0d00c6;
+        public static final int joined_list_view=0x7f0d00c6;
         public static final int largeLabel=0x7f0d00a8;
         public static final int layout_info=0x7f0d00ea;
         public static final int layout_left_menu=0x7f0d00eb;

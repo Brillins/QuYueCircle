@@ -15,11 +15,11 @@ import com.lovejoy.entity.ActivityBriefInfor;
 
 import java.util.List;
 
-public class ActivityListAdapter extends BaseAdapter{
+public class ListViewAdapter extends BaseAdapter{
     private Context context;
 
     View[] itemViews;
-    public ActivityListAdapter(List<ActivityBriefInfor> mListInfor, Context c){
+    public ListViewAdapter(List<ActivityBriefInfor> mListInfor, Context c){
         this.context = c;
         itemViews = new View[mListInfor.size()];
 

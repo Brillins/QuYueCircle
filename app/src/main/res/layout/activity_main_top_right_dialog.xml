@@ -70,7 +70,7 @@
     			    android:layout_height="wrap_content"
     			    android:paddingBottom="8dp"
     			    android:paddingTop="8dp"
-    			    android:text="@string/guancangbuju"
+    			    android:text="@string/create_activity"
     			    android:textColor="#fff"
     			    android:textSize="18sp" />  
 				<View

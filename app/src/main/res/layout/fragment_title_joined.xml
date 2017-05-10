@@ -13,7 +13,7 @@
         <!--android:layout_height="wrap_content"-->
         <!--android:text="@string/joined" />-->
     <ListView
-        android:id="@+id/joined_list"
+        android:id="@+id/joined_list_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </ListView>

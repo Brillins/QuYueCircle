@@ -14,11 +14,6 @@
     <string name="art">文艺</string>
     <string name="study">学习</string>
 
-    <string name="benguangaikuang">本馆概况</string>
-    <string name="lishiyange">历史沿革</string>
-    <string name="guancangbuju">馆藏布局</string>
-    <string name="guizhangzhidu">规章制度</string>
-    <string name="kaifangshijian">开放时间</string>
 
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_ben_guan_gai_kuang">BenGuanGaiKuangActivity</string>

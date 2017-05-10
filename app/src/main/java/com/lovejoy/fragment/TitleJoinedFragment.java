@@ -1,7 +1,7 @@
 package com.lovejoy.fragment;
 
 import com.lovejoy.activity.R;
-import com.lovejoy.adapter.ActivityListAdapter;
+import com.lovejoy.adapter.ListViewAdapter;
 import com.lovejoy.entity.ActivityBriefInfor;
 
 import android.content.Context;
@@ -14,18 +14,18 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class TitleJoinedFragment extends Fragment {
 
+    private Context mContext;
+
 	ListView joinedListView;//声明一个ListView对象
-	private Context mContext;
 
 	//声明一个list，动态存储要显示的信息
 	private List<ActivityBriefInfor> joinedList = new ArrayList<ActivityBriefInfor>();
+
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -35,11 +35,11 @@ public class TitleJoinedFragment extends Fragment {
 		mContext = view.getContext();
 
 		//将listView与布局对象关联
-		joinedListView = (ListView)view.findViewById(R.id.joined_list);
+		joinedListView = (ListView)view.findViewById(R.id.joined_list_view);
 
 		setInfor();//给活动list赋值函数，用来测试
 
-		joinedListView.setAdapter(new ActivityListAdapter(joinedList, mContext));
+		joinedListView.setAdapter(new ListViewAdapter(joinedList, mContext));
 
 		joinedListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 			@Override
@@ -60,16 +60,18 @@ public class TitleJoinedFragment extends Fragment {
 	public void setInfor(){
 		joinedList.clear();
 		int i = 0;
-		while(i<10){
+		while(i<2){
 			ActivityBriefInfor joinedAct = new ActivityBriefInfor();
 			joinedAct.setActivityId(1000 + i);
 			joinedAct.setActivityName("Title" + 1);
 
-			SimpleDateFormat formatter = new SimpleDateFormat ("yyyy年MM月dd日 HH:mm ");
-			Date curDate = new Date(System.currentTimeMillis());//获取当前时间
-			String curTime = formatter.format(curDate);
+//			SimpleDateFormat formatter = new SimpleDateFormat ("yyyy年MM月dd日 HH:mm ");
+//			Date curDate = new Date(System.currentTimeMillis());//获取当前时间
+//			String curTime = formatter.format(curDate);
+//
+//			joinedAct.setCreateTime(curTime);
 
-			joinedAct.setCreateTime(curTime);
+            joinedAct.setCreateTime("2017-5-8 9:30");
 			joinedAct.setCreatorImageId(R.drawable.icon_profile);
 			joinedAct.setCreatorName("LoveJoy");
 			joinedAct.setAbstractInfor("今天下午图书馆前有一次图书漂流活动，主旨是......");
@@ -78,8 +80,9 @@ public class TitleJoinedFragment extends Fragment {
 			joinedAct.setCurrentNumber(6);
 			joinedAct.setDeadline("2017-5-10 12:00");
 			joinedAct.setStartTime("2017-5-11 8:00");
-			i++;
 
+            joinedList.add(joinedAct);
+			i++;
 		}
 	}
 
