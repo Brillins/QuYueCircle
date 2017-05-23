@@ -17,7 +17,7 @@
             android:textSize="24dp"/>
 
         <TextView
-            android:id="@+id/create_date"
+            android:id="@+id/create_Time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text = "时间"
@@ -49,6 +49,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_marginLeft="32dp">
+
             <ImageView
                 android:id="@+id/creator_image"
                 android:layout_width="wrap_content"

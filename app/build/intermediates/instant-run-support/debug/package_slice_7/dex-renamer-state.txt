@@ -1,4 +1,4 @@
-#Tue May 09 10:26:46 CST 2017
+#Mon May 22 21:28:40 CST 2017
 base.0=E\:\\ASProjects\\Library\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
 renamed.0=classes.dex
 file.0=E\:\\ASProjects\\Library\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

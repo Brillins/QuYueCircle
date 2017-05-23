@@ -3,6 +3,33 @@
 
     <item
         is-multidex="true"
+        jar="E:\ASProjects\Library\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3e1a8bb7c83a7628d9b7345de5206b32dd107bb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASProjects\Library\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70677a7a5c02a828c38fd86639b5506395065103">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c28d3d0c2b589248d1605b4a53d333a502fc6310\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASProjects\Library\app\libs\commons-lang-2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="50596100265634884b6e6b487d935c35fda1a897">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-lang-2.5_ba9b3ead70acaaf477e13ab73e8eb41549757953\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\ASProjects\Library\app\libs\commons-collections-3.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -30,15 +57,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\ASProjects\Library\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3e1a8bb7c83a7628d9b7345de5206b32dd107bb3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\ASProjects\Library\app\libs\commons-beanutils-1.8.0.jar"
         jumboMode="true"
         optimize="true"
@@ -63,24 +81,6 @@
         revision="25.0.2"
         sha1="01e55d2a0253ea37745d33062852fd2c90027432">
         <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\ezmorph-1.0.6_f49026a27f664959fb8ef48230279a305091e7a8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ASProjects\Library\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="826a3afaeffbd195820fbc29a35199bb067c0450">
-        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c28d3d0c2b589248d1605b4a53d333a502fc6310\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ASProjects\Library\app\libs\commons-lang-2.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="50596100265634884b6e6b487d935c35fda1a897">
-        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-lang-2.5_ba9b3ead70acaaf477e13ab73e8eb41549757953\classes.dex" />
     </item>
 
 </items>
