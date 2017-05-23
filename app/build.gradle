@@ -33,4 +33,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile files('libs/nineoldandroids-library-2.4.0.jar')
     compile files('libs/commons-beanutils-1.8.0.jar')
+    compile files('libs/httpcore-4.4.6.jar')
 }
