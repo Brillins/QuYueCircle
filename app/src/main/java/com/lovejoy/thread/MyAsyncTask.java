@@ -33,7 +33,7 @@ public class MyAsyncTask extends AsyncTask {
         map.put("name",loginUserName);
         map.put("password",loginPassword);
         JSONObject obj = JSONObject.fromObject(map);
-        JSONObject obj2 = pRequest.sendPost("login","",obj);
+        //JSONObject obj2 = pRequest.sendPost("login","",obj);
         return null;
     }
 

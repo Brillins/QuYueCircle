@@ -1,6 +1,7 @@
 package com.lovejoy.activity;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -24,6 +25,7 @@ public class LoginActivity extends Activity {
     private String loginUserName = null;
     private String loginPassword = null;
     PostRequests pRequest = null;
+    Context context=this;
     JSONObject obj2=null;
     Handler handler2=null;
     @Override
@@ -37,7 +39,10 @@ public class LoginActivity extends Activity {
         handler2=new Handler(){
             public void handleMessage(android.os.Message msg) {
                 if (msg!=null) {
-                    Toast.makeText(LoginActivity.this,"啦啦啦啦啦啦啦啦啦", Toast.LENGTH_LONG).show();
+                    Object result = msg.obj;
+                    JSONObject robj=JSONObject.fromObject(result);
+
+                    Toast.makeText(LoginActivity.this,robj.get("status").toString(), Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(LoginActivity.this,MainActivity.class);
                     startActivity(intent);
                 }
@@ -62,10 +67,8 @@ public class LoginActivity extends Activity {
                         map.put("name",loginUserName);
                         map.put("password",loginPassword);
                         JSONObject obj = JSONObject.fromObject(map);
-                        obj2 = pRequest.sendPost("login","",obj);
-                        Message message=new Message();
-                        message.obj="C1";
-                        handler2.sendMessage(message);
+                        pRequest.sendPost("/login","",obj,handler2,context);
+
                     }
                 });
                 loginThread.start();

@@ -3311,8 +3311,8 @@ containing a value of this type.
         public static final int action_text=0x7f0d00cf;
         public static final int actions=0x7f0d00dc;
         public static final int activity_chooser_view_content=0x7f0d004b;
-        public static final int activity_dealine=0x7f0d0085;
-        public static final int activity_name=0x7f0d007d;
+        public static final int activity_deadline=0x7f0d0085;
+        public static final int activity_name=0x7f0d007f;
         public static final int add=0x7f0d0026;
         public static final int alertTitle=0x7f0d005f;
         public static final int all=0x7f0d0014;
@@ -3338,11 +3338,11 @@ containing a value of this type.
         public static final int clip_vertical=0x7f0d003b;
         public static final int collapseActionView=0x7f0d0042;
         public static final int contentPanel=0x7f0d0055;
-        public static final int create_Time=0x7f0d007e;
+        public static final int create_Time=0x7f0d0080;
         public static final int create_ivfanhui=0x7f0d007a;
         public static final int create_ivfanhui2=0x7f0d007c;
-        public static final int creator_image=0x7f0d007f;
-        public static final int creator_name=0x7f0d0080;
+        public static final int creator_image=0x7f0d007d;
+        public static final int creator_name=0x7f0d007e;
         public static final int current_number=0x7f0d0084;
         public static final int custom=0x7f0d005c;
         public static final int customPanel=0x7f0d005b;
@@ -3753,11 +3753,6 @@ containing a value of this type.
         public static final int AnimationPreview=0x7f0800a8;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static final int AppBaseTheme=0x7f08000c;
         public static final int AppTheme=0x7f0800a9;
@@ -3915,8 +3910,6 @@ containing a value of this type.
         public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f080086;
         public static final int Base_Widget_Design_AppBarLayout=0x7f0800d5;
         public static final int Base_Widget_Design_TabLayout=0x7f0800d6;
-        /** 模糊
-         */
         public static final int MyDialogStyleTop=0x7f0800d7;
         public static final int Platform_AppCompat=0x7f080020;
         public static final int Platform_AppCompat_Light=0x7f080021;

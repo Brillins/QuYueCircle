@@ -36,7 +36,7 @@ public class ListViewAdapter extends BaseAdapter{
         public TextView planMinNumber;
         public TextView planMaxNumber;
         public TextView currentNumber;
-        public TextView activityDealine;
+        public TextView activityDeadline;
         public TextView startTime;
 
     }
@@ -76,7 +76,7 @@ public class ListViewAdapter extends BaseAdapter{
             itemComponent.planMinNumber = (TextView) convertView.findViewById(R.id.plan_number_min);
             itemComponent.planMaxNumber = (TextView) convertView.findViewById(R.id.plan_number_max);
             itemComponent.currentNumber = (TextView) convertView.findViewById(R.id.current_number);
-            itemComponent.activityDealine = (TextView) convertView.findViewById(R.id.activity_dealine);
+            itemComponent.activityDeadline = (TextView) convertView.findViewById(R.id.activity_deadline);
             itemComponent.startTime = (TextView) convertView.findViewById(R.id.start_time);
 
             convertView.setTag(itemComponent);
@@ -85,16 +85,16 @@ public class ListViewAdapter extends BaseAdapter{
         }
 
         //绑定数据
-        itemComponent.activityName.setText((String)data.get(position).get("activityName"));
-        itemComponent.createTime.setText((String)data.get(position).get("createTime"));
+        itemComponent.activityName.setText(data.get(position).get("activityName").toString());
+        itemComponent.createTime.setText(data.get(position).get("createTime").toString());
         itemComponent.creatorImage.setImageResource((Integer)data.get(position).get("creatorImage"));
-        itemComponent.creatorName.setText((String)data.get(position).get("creatorName"));
+        itemComponent.creatorName.setText(data.get(position).get("creatorName").toString());
         itemComponent.abstractInfor.setText((String)data.get(position).get("abstractInfor"));
-        itemComponent.planMinNumber.setText((Integer)data.get(position).get("planMinNumber"));
-        itemComponent.planMaxNumber.setText((Integer)data.get(position).get("planMaxNumber"));
-        itemComponent.currentNumber.setText((Integer)data.get(position).get("currentNumber"));
-        itemComponent.activityDealine.setText((String)data.get(position).get("activityDealine"));
-        itemComponent.startTime.setText((String)data.get(position).get("startTime"));
+        itemComponent.planMinNumber.setText(data.get(position).get("planMinNumber").toString());
+        itemComponent.planMaxNumber.setText(data.get(position).get("planMaxNumber").toString());
+        itemComponent.currentNumber.setText(data.get(position).get("currentNumber").toString());
+        itemComponent.activityDeadline.setText(data.get(position).get("activityDeadline").toString());
+        itemComponent.startTime.setText(data.get(position).get("startTime").toString());
 
         return convertView;
     }

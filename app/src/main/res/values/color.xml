@@ -2,14 +2,14 @@
 <resources>
     <color name="splash_fense">#9966FF</color>
     <color name="chengse">#FF6600</color>
-    <color name="white">#ffffff</color>
+    <color name="white">#FFFFFF</color>
     <color name="gray">#cccccc</color>
     <color name="transparent">#00000000</color>
     <color name="red">#CC0033</color>
     <color name="zone_title_bg">#ffee71a1</color>
     <color name="black">#000000</color>
     <color name="light_sky_blue">#87CEFA</color>
-    <color name="main_panel_bg_color">#FFFFF0</color>
+    <color name="main_panel_bg_color">#F5FFFA</color>
     
 
 </resources>

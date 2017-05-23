@@ -12,6 +12,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\ASProjects\Library\app\libs\android-async-http-1.4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a490cc97b84d41e6fa51678ad2c21fddb93dcf8d">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.3_6884fc538985f4ad33feac547d58f5e416e3360b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASProjects\Library\app\libs\httpcore-4.4.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3fd8ced1f52c7574af952e2e6da0df8df08eb82">
+        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.4.6_ff5aaa4237147f7f295ebb6a58e3ed3fe5fd16cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\ASProjects\Library\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -45,15 +63,6 @@
         revision="25.0.2"
         sha1="136743e0d12df4e785e62b48618cee169b2ae546">
         <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\json-lib-2.4-jdk15_70ade0adc5eccd361e448cc59a1dc4a57b731534\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\ASProjects\Library\app\libs\commons-logging-1.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2d859791fbf7d880591864bd4004d8442a8a3b81">
-        <dex dex="E:\ASProjects\Library\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-logging-1.1.1_0a387f54d744bdd79514a6993aaf34d18c7a9c19\classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -911,8 +911,8 @@ int id action_settings 0x7f0d00fa
 int id action_text 0x7f0d00cf
 int id actions 0x7f0d00dc
 int id activity_chooser_view_content 0x7f0d004b
-int id activity_dealine 0x7f0d0085
-int id activity_name 0x7f0d007d
+int id activity_deadline 0x7f0d0085
+int id activity_name 0x7f0d007f
 int id add 0x7f0d0026
 int id alertTitle 0x7f0d005f
 int id all 0x7f0d0014
@@ -938,11 +938,11 @@ int id clip_horizontal 0x7f0d003a
 int id clip_vertical 0x7f0d003b
 int id collapseActionView 0x7f0d0042
 int id contentPanel 0x7f0d0055
-int id create_Time 0x7f0d007e
+int id create_Time 0x7f0d0080
 int id create_ivfanhui 0x7f0d007a
 int id create_ivfanhui2 0x7f0d007c
-int id creator_image 0x7f0d007f
-int id creator_name 0x7f0d0080
+int id creator_image 0x7f0d007d
+int id creator_name 0x7f0d007e
 int id current_number 0x7f0d0084
 int id custom 0x7f0d005c
 int id customPanel 0x7f0d005b

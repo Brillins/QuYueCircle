@@ -1,6 +1,8 @@
 package com.lovejoy.activity;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -27,7 +29,7 @@ public class RegisterActivity extends Activity {
 	private EditText passwordtext=null;
 	private EditText cpasswordtext=null;
 	private RadioGroup radgroup=null;
-
+    Context context =this;
 	private String username = null;
 	private String password = null;
 	private String school=null;
@@ -56,19 +58,22 @@ public class RegisterActivity extends Activity {
 		cpasswordtext=(EditText)findViewById(R.id.password_confirm);
 		radgroup=(RadioGroup)findViewById(R.id.sexGroup);
 		registerButton = (Button)findViewById(R.id.email_register_button);
-
+		pRequest=new PostRequests();
 		handler = new Handler() {
 			@Override
 			public void handleMessage(Message msg) {
-				JSONObject json = (JSONObject)msg.obj;
-				if(json.get("userid").toString().equals("-1")){
-					Toast.makeText(RegisterActivity.this,json.get("errcode").toString(),Toast.LENGTH_LONG).show();
+                Object result = msg.obj;
+                JSONObject robj=JSONObject.fromObject(result);
+				if(robj.get("userid").toString().equals("-1")){
+					Toast.makeText(RegisterActivity.this,robj.get("errcode").toString(),Toast.LENGTH_LONG).show();
 				}
 				else{
-					Toast.makeText(RegisterActivity.this,json.get("userid").toString(),Toast.LENGTH_LONG).show();
+					Toast.makeText(RegisterActivity.this,robj.get("userid").toString(),Toast.LENGTH_LONG).show();
 					//
 				}
 
+                Intent intent = new Intent(RegisterActivity.this,MainActivity.class);
+                startActivity(intent);
 			};};
 
 
@@ -93,14 +98,11 @@ public class RegisterActivity extends Activity {
 
 
 				if(checkinfo()==true){
-					Thread registerThread = new Thread(new Runnable() {
-						@Override
-						public void run() {
 
-							Message message=Message.obtain();
 							Map<String,String> map = new HashMap<String,String>();
 							map.put("name",username);
 							map.put("password",password);
+					        map.put("phone",phone);
 							map.put("mail",email);
 							map.put("stu_id",studentid);
 							map.put("college",school);
@@ -108,12 +110,10 @@ public class RegisterActivity extends Activity {
 							map.put("sex",sex);
 							map.put("birthdate","1995-01-01");
 							JSONObject obj = JSONObject.fromObject(map);
-							obj2 = pRequest.sendPost("register","",obj);
-							message.obj=obj2;
-							handler.sendMessage(message);
+							pRequest.sendPost("/register","",obj,handler,context);
+
 						}
-					});
-					registerThread.start();}
+
 				else{
 					Toast.makeText(RegisterActivity.this,"请检查输入项",Toast.LENGTH_LONG).show();
 				}
@@ -123,12 +123,12 @@ public class RegisterActivity extends Activity {
 
 	private boolean checkinfo(){
 
-		String format = "\\p{Alpha}\\w{2,15}[@][a-z0-9]{3,}[.]\\p{Lower}{2,}";
-		if(email.matches(format))
+		String format = "^([a-z0-9A-Z]+[-|\\.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-zA-Z]{2,}$";
+		if(!email.matches(format))
 			return false;
-		if(passwordtext.getText().toString().equals(cpasswordtext.getText().toString()))
+		if(!passwordtext.getText().toString().equals(cpasswordtext.getText().toString()))
 			return false;
-		if(phone.length()!=12)
+		if(phone.length()!=11)
 			return false;
 		if(sex==null)
 			return false;
