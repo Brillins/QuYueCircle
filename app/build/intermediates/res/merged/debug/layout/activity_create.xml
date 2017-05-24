@@ -1,71 +1,161 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".CreateActivity" >
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.lovejoy.activity.CreateActivity">
+    <RelativeLayout
+        android:id="@+id/LaunchTop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/zone_title_bg">
+        <Button
 
-    <LinearLayout
-       android:layout_width="match_parent"
-       android:layout_height="50dp"
-       android:background="@color/zone_title_bg"
-       android:orientation="horizontal" >
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/Exit"
+            android:onClick="onClick3"
+            android:background="@drawable/return_icon"/>
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="10dp"
-            android:layout_weight="1"
-            android:orientation="horizontal" >
-
-            <ImageView
-                android:id="@+id/create_ivfanhui"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:scaleType="centerInside"
-                android:src="@drawable/return_icon" 
-                android:onClick="onClick3" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
+        <Button
+            android:text="发布"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="8"
-            android:orientation="horizontal" >
+            android:id="@+id/Launch"
+            android:layout_alignParentRight="true"
+            android:background="@color/zone_title_bg"/>
+    </RelativeLayout>
 
-            <TextView
-                android:id="@+id/main_txt"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="8"
-                android:gravity="center"
-                android:text="@string/create_activity"
-                android:textColor="@android:color/white"
-                android:textSize="20sp"
-                android:textStyle="bold" >
-            </TextView>
-        </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rl_user"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/LaunchTop"
+        android:background="@drawable/lbs_popup_bg"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">>
 
-        <LinearLayout
-            android:layout_width="0dp"
+        <EditText
+            android:id="@+id/NameEdit"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:inputType="text"
+            android:hint="名称"
+            android:background="@drawable/launch_et_bg"
+            android:layout_margin="2dp"/>
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="@color/devide_line"
+            android:layout_below="@id/NameEdit"/>
+        <EditText
+            android:id="@+id/DescEdit"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:inputType="text"
+            android:hint="简介"
+            android:background="@drawable/launch_et_bg"
+            android:layout_below="@id/NameEdit"
+            android:layout_margin="2dp"
+            />
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="@color/devide_line"
+            android:layout_below="@id/DescEdit"/>
+        <EditText
+            android:id="@+id/NumEdit"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:inputType="text"
+            android:hint="活动人数"
+            android:background="@drawable/launch_et_bg"
+            android:layout_below="@id/DescEdit"
+            android:layout_margin="2dp"/>
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="@color/devide_line"
+            android:layout_below="@id/NumEdit"/>
+        <EditText
+            android:id="@+id/DeadlineEdit"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:inputType="text"
+            android:hint="截止时间"
+            android:background="@drawable/launch_et_bg"
+            android:layout_below="@id/NumEdit"
+            android:layout_margin="2dp"/>
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="@color/devide_line"
+            android:layout_below="@id/DeadlineEdit"/>
+        <EditText
+            android:id="@+id/AddressEdit"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:inputType="text"
+            android:hint="地点"
+            android:background="@drawable/launch_et_bg"
+            android:layout_below="@id/DeadlineEdit"
+            android:layout_margin="2dp"/>
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="@color/devide_line"
+            android:layout_below="@id/AddressEdit"/>
+        <TextView
+            android:hint="标签:"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="18dp"
+            android:id="@+id/Label"
+            android:layout_below="@id/AddressEdit"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginRight="10dp"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:visibility="invisible" >
+            android:id="@+id/Bcircle"
+            android:layout_toRightOf="@id/Label"
+            android:layout_alignTop="@id/Label"/>
 
-            <ImageView
-                android:id="@+id/create_ivfanhui2"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:scaleType="centerInside"
-                android:src="@drawable/return_icon" />
-        </LinearLayout>
-    </LinearLayout>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Scircle"
+            android:layout_toRightOf="@id/Bcircle"
+            android:layout_alignTop="@id/Bcircle" />
 
-</LinearLayout>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/Photo"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/upload_photo"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/image1"
+        android:layout_toRightOf="@id/Photo"
+        android:layout_alignTop="@id/Photo"
+        />
+</RelativeLayout>
+

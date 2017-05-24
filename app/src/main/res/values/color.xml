@@ -10,6 +10,8 @@
     <color name="black">#000000</color>
     <color name="light_sky_blue">#87CEFA</color>
     <color name="main_panel_bg_color">#F5FFFA</color>
+    <color name="devide_line">#CBCED2</color>
+    <color name="green">#98FB98</color>
     
 
 </resources>
