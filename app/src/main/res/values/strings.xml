@@ -40,6 +40,17 @@
     <string name="setting">设置</string>
 
     <string name="activity_name">活动名称</string>
+    <string name="create_time">发布时间</string>
+    <string name="brief">简介：</string>
+    <string name="brief_content">简介内容</string>
+    <string name="plan_num_of_people">规定人数：</string>
+    <string name="min_num_plan">最少人数</string>
+    <string name="max_num_plan">最多人数</string>
+    <string name="current_num_of_people">当前人数：</string>
+    <string name="num_current">当前人数</string>
+    <string name="activity_deadline">报名截止时间：</string>
+    <string name="deadline">截止时间</string>
+
 
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>

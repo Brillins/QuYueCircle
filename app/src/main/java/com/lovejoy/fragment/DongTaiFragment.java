@@ -30,30 +30,30 @@ public class DongTaiFragment extends Fragment implements OnCheckedChangeListener
 	private RadioButton rbJoined, rbRecommendation, rbFriend;
 	private ViewPager  viewpager;
     private ImageView iv_add;
-
 	List<Fragment> list = null;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
+
 		parentView = inflater.inflate(R.layout.fragment_dongtai, container, false);
 		
 		radioGroup = (RadioGroup) parentView.findViewById(R.id.radioGroup);
-		
-		rbJoined = (RadioButton) parentView.findViewById(R.id.rbJoined);
+
 		rbRecommendation = (RadioButton) parentView.findViewById(R.id.rbRecommendation);
+		rbJoined = (RadioButton) parentView.findViewById(R.id.rbJoined);
 		rbFriend = (RadioButton) parentView.findViewById(R.id.rbFriend);
 		
 		viewpager = (ViewPager)parentView.findViewById(R.id.vp_DongTai);
 		
 		iv_add = (ImageView) parentView.findViewById(R.id.iv_add);
 		
-		list = new ArrayList<Fragment>();
+		list = new ArrayList<>();
+		TitleRecomFragment tRecommendation = new TitleRecomFragment();
 		TitleJoinedFragment tJoined = new TitleJoinedFragment();
-		TitleRecommendationFragment tRecommendation = new TitleRecommendationFragment();
         TitleFriendFragment tFriend = new TitleFriendFragment();
-		list.add(tJoined);
 		list.add(tRecommendation);
+		list.add(tJoined);
         list.add(tFriend);
 		
 		ZxzcAdapter zxzc = new ZxzcAdapter(getChildFragmentManager(), list);
@@ -61,18 +61,18 @@ public class DongTaiFragment extends Fragment implements OnCheckedChangeListener
 		zxzc.notifyDataSetChanged();
 		
 		radioGroup.setOnCheckedChangeListener(this);
-        rbJoined.setChecked(true);
+        rbRecommendation.setChecked(true);
 
 		//滑动切换
-		viewpager.setOnPageChangeListener(new OnPageChangeListener() {		
+		viewpager.addOnPageChangeListener(new OnPageChangeListener() {
 			@Override
 			public void onPageSelected(int arg0) {
 				switch (arg0) {
                     case 0:
-                        rbJoined.setChecked(true);
+						rbRecommendation.setChecked(true);
                         break;
                     case 1:
-                        rbRecommendation.setChecked(true);
+						rbJoined.setChecked(true);
                         break;
                     case 2:
                         rbFriend.setChecked(true);
@@ -107,9 +107,9 @@ public class DongTaiFragment extends Fragment implements OnCheckedChangeListener
 
 	@Override
 	public void onCheckedChanged(RadioGroup arg0, int checkedId) {
-		if (checkedId == rbJoined.getId()) {
+		if (checkedId == rbRecommendation.getId()) {
 			viewpager.setCurrentItem(0);
-		} else if (checkedId == rbRecommendation.getId()) {
+		} else if (checkedId == rbJoined.getId()) {
 			viewpager.setCurrentItem(1);
 		} else if(checkedId == rbFriend.getId()){
             viewpager.setCurrentItem(2);
@@ -117,10 +117,10 @@ public class DongTaiFragment extends Fragment implements OnCheckedChangeListener
 	}
 
 	
-class ZxzcAdapter extends FragmentStatePagerAdapter {
+private class ZxzcAdapter extends FragmentStatePagerAdapter {
 
 		List<Fragment> list;			
-		public ZxzcAdapter(FragmentManager fm,List<Fragment> list) {
+		private ZxzcAdapter(FragmentManager fm,List<Fragment> list) {
 			super(fm);
 			this.list=list;			
 		}

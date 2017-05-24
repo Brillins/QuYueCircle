@@ -31,8 +31,8 @@
                 android:id="@+id/creator_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text = "abc"
-                android:textSize="12dp"
+                android:text = "@string/user_name"
+                android:textSize="12sp"
                 android:layout_gravity="center" />
 
         </LinearLayout>
@@ -42,29 +42,29 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="center"
-            android:layout_marginLeft="24dp">
+            android:layout_marginStart="24dp">
 
             <TextView
                 android:id="@+id/activity_name"
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:text="@string/activity_name"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 android:textColor="@color/black"
                 android:layout_gravity="bottom"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:maxEms="6"/>
+                android:maxEms="1"/>
 
             <TextView
                 android:id="@+id/create_Time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text = "发布时间"
-                android:textSize="14dp"
+                android:text = "@string/create_time"
+                android:textSize="14sp"
                 android:textColor="@color/black"
                 android:layout_gravity="center"
-                android:layout_marginRight="10dp"/>
+                android:layout_marginEnd="10dp"/>
 
         </LinearLayout>
 
@@ -85,8 +85,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="简介："
-            android:textSize="18dp"/>
+            android:text="@string/brief"
+            android:textSize="18sp"/>
 
         <TextView
             android:id="@+id/abstract_infor"
@@ -94,8 +94,8 @@
             android:layout_height="match_parent"
             android:ellipsize="end"
             android:maxLines="3"
-            android:text="哈哈哈"
-            android:textSize="14dp"
+            android:text="@string/brief_content"
+            android:textSize="14sp"
             android:lineSpacingExtra="10dp"
             android:layout_marginTop="5dp"/>
 
@@ -122,29 +122,29 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="规定人数："
-                android:textSize="18dp"/>
+                android:text="@string/plan_num_of_people"
+                android:textSize="18sp"/>
 
             <TextView
                 android:id="@+id/plan_number_min"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text = "7"
-                android:textSize="14dp"
+                android:text = "@string/min_num_plan"
+                android:textSize="14sp"
                 android:layout_marginLeft="16dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text = "~"
-                android:textSize="14dp"/>
+                android:textSize="14sp"/>
 
             <TextView
                 android:id="@+id/plan_number_max"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text = "9"
-                android:textSize="14dp"/>
+                android:text = "@string/max_num_plan"
+                android:textSize="14sp"/>
 
         </LinearLayout>
 
@@ -156,15 +156,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="当前人数："
-                android:textSize="18dp"/>
+                android:text="@string/current_num_of_people"
+                android:textSize="18sp"/>
 
             <TextView
                 android:id="@+id/current_number"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text = "5"
-                android:textSize="14dp"
+                android:text = "@string/num_current"
+                android:textSize="14sp"
                 android:layout_marginLeft="16dp"/>
 
         </LinearLayout>
@@ -190,16 +190,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="报名截止时间："
-                android:textSize="18dp"/>
+                android:text="@string/activity_deadline"
+                android:textSize="18sp"/>
 
 
             <TextView
                 android:id="@+id/activity_deadline"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text = "时间"
-                android:textSize="14dp"
+                android:text = "@string/deadline"
+                android:textSize="14sp"
                 android:textColor="@color/black"/>
 
 

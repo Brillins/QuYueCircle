@@ -2,13 +2,21 @@ package com.lovejoy.fragment;
 
 import com.lovejoy.activity.R;
 import com.lovejoy.adapter.ListViewAdapter;
+import com.lovejoy.connection.PostRequests;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+
+import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,27 +26,96 @@ import java.util.Map;
 
 public class TitleJoinedFragment extends Fragment {
 
-    private ListView joinedListView;
-
+    private ListView tJoinedListView;
+    Context context=null;
+    Handler handler=null;
+    Handler handler2=null;
+    PostRequests prequest=null;
+    int size=0;
+    int count=0;
+    int userid=22;
+    List<Map<String, Object>> mlist;
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
+        mlist=new ArrayList<>();
 		View view = inflater.inflate(R.layout.fragment_title_joined, container, false);
+        context=this.getActivity();
+        tJoinedListView = (ListView)view.findViewById(R.id.tJoined_list_view);
+        //List<Map<String, Object>> list = getData();
+       // tJoinedListView.setAdapter(new ListViewAdapter(getActivity(), list));
+        JSONObject js=new JSONObject();
+        prequest=new PostRequests();
+        handler2 = new android.os.Handler() {
+            @Override
+            public void handleMessage(Message msg) {
+                if(msg.obj!=null) {
+                    Log.e("zhenshabi","+1s");
+                    Object result = msg.obj;
+                    JSONObject robj = JSONObject.fromObject(result);
+                    Map<String, Object> map = new HashMap<>();
+                    map.put("activityName", robj.getString("name"));
+                    map.put("createTime", robj.getString("create_date"));
+                    map.put("creatorImage", R.drawable.icon_profile_01);
+                    map.put("creatorName", Integer.toString(robj.getInt("publisher")));
+                    map.put("abstractInfor", robj.getString("description") );
+                    map.put("planMinNumber", robj.getInt("min_num"));
+                    map.put("planMaxNumber",  robj.getInt("max_num"));
+                    map.put("currentNumber", robj.getInt("cur_num") );
+                    map.put("activityDeadline",  robj.getString("end_date"));
+                    map.put("startTime",  robj.getString("start_date"));
+                    mlist.add(map);
+                    count++;
+                   if(count==size){
 
-        joinedListView = (ListView)view.findViewById(R.id.joined_list_view);
-        List<Map<String, Object>> list = getData();
-        joinedListView.setAdapter(new ListViewAdapter(getActivity(), list));
+                       tJoinedListView.setAdapter(new ListViewAdapter(getActivity(), mlist));
+                   }
+                    }
 
+                else{
+                    Log.e("zhenshabi","youcuole");
+                }
+
+            };};
+
+
+        handler = new android.os.Handler() {
+            @Override
+            public void handleMessage(Message msg) {
+                if(msg.obj!=null) {
+                    Object result = msg.obj;
+                    JSONObject robj = JSONObject.fromObject(result);
+                    JSONArray jr=robj.getJSONArray("activity");
+                    List<Integer> idlist=new ArrayList<>();
+                    //List  idlist= JSONArray.toList(jr,new Integer(),new JsonConfig());
+
+                    int i=0;
+                    JSONObject js=new JSONObject();
+                    size=jr.size();
+                    for(i=0;i<jr.size();i++){
+                        idlist.add(jr.getInt(i));
+                        prequest.sendPost("/get_activity_details","/"+Integer.toString(jr.getInt(i)),js,handler2,context);
+
+                    }
+
+                }
+                else{
+                    Log.e("zhenshabi","youcuole");
+                }
+
+            };};
+
+        prequest.sendPost("/get_user_activity_list","/"+Integer.toString(userid),js,handler,context);
 		return view;
 	}
 
 
     public List<Map<String, Object>> getData(){
-        List<Map<String, Object>> list = new ArrayList<Map<String,Object>>();
+        List<Map<String, Object>> list = new ArrayList<>();
         list.clear();
         for (int i = 0; i < 10; i++) {
-            Map<String, Object> map = new HashMap<String, Object>();
-            map.put("activityName", "图书漂流"+i);
+            Map<String, Object> map = new HashMap<>();
+            map.put("activityName", "已加入图书漂流"+i);
             map.put("createTime", "2017-5-8 9:00");
             map.put("creatorImage", R.drawable.icon_profile_01);
             map.put("creatorName", "name"+i);
@@ -55,5 +132,7 @@ public class TitleJoinedFragment extends Fragment {
         return list;
     }
 
+    //收到服务器的数据之后调用将界面更新
+    public void update(){}
 
 }

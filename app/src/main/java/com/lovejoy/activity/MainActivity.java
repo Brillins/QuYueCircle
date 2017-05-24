@@ -62,8 +62,8 @@ public class MainActivity extends FragmentActivity implements
 		resideMenu.setBackground(R.drawable.menu_background);
 		resideMenu.attachToActivity(this);
 		resideMenu.setMenuListener(menuListener);
-		// valid scale factor is between 0.0f and 1.0f. leftmenu'width is
-		// 150dip.
+
+		// valid scale factor is between 0.0f and 1.0f. leftmenu'width is 150dip.
 		resideMenu.setScaleValue(0.7f);
 		// 禁止使用右侧菜单
 		resideMenu.setDirectionDisable(ResideMenu.DIRECTION_RIGHT);

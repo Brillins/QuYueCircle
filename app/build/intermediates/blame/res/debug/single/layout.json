@@ -32,6 +32,10 @@
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\fragment_dongtai.xml"
     },
     {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_title_recom.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\fragment_title_recom.xml"
+    },
+    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_title_joined.xml",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\fragment_title_joined.xml"
     },
@@ -234,10 +238,6 @@
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\activity_register.xml"
-    },
-    {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_title_recommendation.xml",
-        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\fragment_title_recommendation.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
