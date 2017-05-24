@@ -39,6 +39,7 @@
     <string name="history">历史记录</string>
     <string name="setting">设置</string>
 
+    <string name="creator_image">用户头像</string>
     <string name="activity_name">活动名称</string>
     <string name="create_time">发布时间</string>
     <string name="brief">简介：</string>
@@ -50,7 +51,9 @@
     <string name="num_current">当前人数</string>
     <string name="activity_deadline">报名截止时间：</string>
     <string name="deadline">截止时间</string>
-
+    <string name="activity_startTime">活动开始时间：</string>
+    <string name="start_time">开始时间</string>
+    <string name="spacer_number">~</string>
 
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
