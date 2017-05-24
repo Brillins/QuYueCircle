@@ -128,6 +128,10 @@
         "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_circle_list.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\activity_circle_list.xml"
+    },
+    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail.xml",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\activity_detail.xml"
     },

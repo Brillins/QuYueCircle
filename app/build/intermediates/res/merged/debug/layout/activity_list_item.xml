@@ -22,6 +22,7 @@
 
             <ImageView
                 android:id="@+id/creator_image"
+                android:contentDescription="@string/creator_image"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:src="@drawable/icon_profile"
@@ -131,14 +132,14 @@
                 android:layout_height="match_parent"
                 android:text = "@string/min_num_plan"
                 android:textSize="15sp"
-                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
                 android:layout_gravity="bottom"
                 android:gravity="center"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text = "~"
+                android:text = "@string/spacer_number"
                 android:textSize="15sp"
                 android:layout_gravity="bottom"
                 android:gravity="center"/>
@@ -171,7 +172,7 @@
                 android:layout_height="match_parent"
                 android:text = "@string/num_current"
                 android:textSize="15sp"
-                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
                 android:layout_gravity="bottom"
                 android:gravity="center"/>
 

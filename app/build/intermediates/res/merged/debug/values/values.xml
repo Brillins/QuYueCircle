@@ -701,9 +701,11 @@
     <string name="brief">简介：</string>
     <string name="brief_content">简介内容</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="circle_title">圈子标题</string>
     <string name="college_name">学校名称</string>
     <string name="create_activity">发布活动</string>
     <string name="create_time">发布时间</string>
+    <string name="creator_image">用户头像</string>
     <string name="credit_record">信用记录</string>
     <string name="current_num_of_people">当前人数：</string>
     <string name="deadline">截止时间</string>
@@ -733,6 +735,7 @@
     <string name="recommendation">推荐</string>
     <string name="search_menu_title">Search</string>
     <string name="setting">设置</string>
+    <string name="spacer_number">~</string>
     <string name="sport">体育</string>
     <string name="start_time">开始时间</string>
     <string name="status_bar_notification_info_overflow">999+</string>

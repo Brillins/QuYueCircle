@@ -1,9 +1,11 @@
 package com.lovejoy.fragment;
 
+import com.lovejoy.activity.CircleListActivity;
 import com.lovejoy.activity.R;
 import com.lovejoy.adapter.CircleAdapter;
 import com.lovejoy.entity.CircleIcon;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -64,7 +66,55 @@ public class TitleStudyFragment extends Fragment {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				int p = position + 1;
+				String circleTitle = null;
 				Toast.makeText(getContext(), "你点击了第" + p + "项", Toast.LENGTH_SHORT).show();
+
+				switch (p){
+					case 1:
+						circleTitle = "自习";
+						break;
+					case 2:
+						circleTitle = "实验";
+						break;
+					case 3:
+						circleTitle = "辩论赛";
+						break;
+					case 4:
+						circleTitle = "书友会";
+						break;
+					case 5:
+						circleTitle = "数学建模";
+						break;
+					case 6:
+						circleTitle = "宣讲会";
+						break;
+					case 7:
+						circleTitle = "新软攀峰";
+						break;
+					case 8:
+						circleTitle = "英语写作";
+						break;
+					case 9:
+						circleTitle = "程序设计";
+						break;
+					case 10:
+						circleTitle = "机械设计";
+						break;
+					case 11:
+						circleTitle = "建筑结构设计";
+						break;
+					case 12:
+						circleTitle = "图书漂流";
+						break;
+					default:
+						break;
+				}
+
+				Bundle bundle = new Bundle();
+				Intent intent = new Intent(getActivity(),CircleListActivity.class);
+				bundle.putString("circleTitle",circleTitle);
+				intent.putExtras(bundle);
+				startActivity(intent);
 			}
 		});
 	}

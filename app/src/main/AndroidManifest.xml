@@ -17,13 +17,13 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_CALL_LOG" />
 
-    <!--添加WiFi以及访问网络的权限-->
-    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" ></uses-permission>
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" ></uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" ></uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" ></uses-permission>
-    <uses-permission android:name="android.permission.INTERNET" ></uses-permission>
-    <uses-permission android:name="android.permission.WAKE_LOCK" ></uses-permission>
+    <!-- 添加WiFi以及访问网络的权限 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
@@ -31,7 +31,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.lovejoy.activity.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -40,25 +40,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity-->
-            <!--android:name="com.lovejoy.activity.MainActivity"-->
-            <!--android:screenOrientation="portrait" />-->
+        <!-- <activity -->
+        <!-- android:name="com.lovejoy.activity.MainActivity" -->
+        <!-- android:screenOrientation="portrait" /> -->
         <activity
-            android:name="com.lovejoy.activity.SettingActivity"
+            android:name=".SettingActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.lovejoy.view.MainTopRightDialog"
             android:theme="@style/MyDialogStyleTop" />
         <activity
-            android:name="com.lovejoy.activity.CreateActivity"
+            android:name=".CreateActivity"
             android:label="@string/create_activity" />
-
         <activity
-            android:name="com.lovejoy.activity.LoginActivity"
+            android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
         <activity
-            android:name="com.lovejoy.activity.RegisterActivity"
-            android:label="@string/title_activity_register"/>
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" />
+        <activity android:name=".CircleListActivity"></activity>
     </application>
 
 </manifest>

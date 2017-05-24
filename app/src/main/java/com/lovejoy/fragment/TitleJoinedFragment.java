@@ -133,6 +133,8 @@ public class TitleJoinedFragment extends Fragment {
     }
 
     //收到服务器的数据之后调用将界面更新
-    public void update(){}
+    public void update(){
+
+    }
 
 }
