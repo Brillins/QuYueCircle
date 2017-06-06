@@ -48,11 +48,8 @@
         <!-- android:name="com.lovejoy.activity.MainActivity" -->
         <!-- android:screenOrientation="portrait" /> -->
         <activity
-            android:name="com.lovejoy.activity.SettingActivity"
+            android:name="com.lovejoy.activity.SideMenuShowActivity"
             android:screenOrientation="portrait" />
-        <activity
-            android:name="com.lovejoy.view.MainTopRightDialog"
-            android:theme="@style/MyDialogStyleTop" />
         <activity
             android:name="com.lovejoy.activity.CreateActivity"
             android:label="@string/create_activity" />

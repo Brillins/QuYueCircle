@@ -4,10 +4,6 @@
         "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_drop.xml",
-        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\view_drop.xml"
-    },
-    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\91534\\.android\\build-cache\\94a41489c75ccedcadb0ca48f92394da582fb993\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
@@ -18,10 +14,6 @@
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_list_item.xml",
-        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\view_list_item.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -58,10 +50,6 @@
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dongtai_header.xml",
-        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\fragment_dongtai_header.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
@@ -140,12 +128,12 @@
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\fragment_title_art.xml"
     },
     {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\91534\\.android\\build-cache\\94a41489c75ccedcadb0ca48f92394da582fb993\\output\\res\\layout\\design_navigation_menu.xml"
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_anim_first.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\start_anim_first.xml"
     },
     {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_first.xml",
-        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\start_first.xml"
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\91534\\.android\\build-cache\\94a41489c75ccedcadb0ca48f92394da582fb993\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_title_art_item.xml",
@@ -160,8 +148,8 @@
         "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_top_right_dialog.xml",
-        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\activity_main_top_right_dialog.xml"
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_anim_second.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\start_anim_second.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create.xml",
@@ -186,10 +174,6 @@
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_friend_list.xml",
-        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\view_friend_list.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_title_friend.xml",
@@ -260,14 +244,6 @@
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_third.xml",
-        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\start_third.xml"
-    },
-    {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settings.xml",
-        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\activity_settings.xml"
-    },
-    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
@@ -282,6 +258,10 @@
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_item.xml",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\activity_list_item.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_side_menu_show.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\activity_side_menu_show.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
@@ -302,10 +282,6 @@
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_second.xml",
-        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\start_second.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -334,6 +310,10 @@
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_line_horizonal.xml",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\layout_line_horizonal.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_anim_third.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\layout\\start_anim_third.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",

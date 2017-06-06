@@ -8,7 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.lovejoy.activity.R;
+import com.lovejoy.view.activity.R;
 
 import java.util.List;
 import java.util.Map;

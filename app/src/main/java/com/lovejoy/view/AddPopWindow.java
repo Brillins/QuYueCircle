@@ -1,9 +1,9 @@
 package com.lovejoy.view;
 
-import com.lovejoy.activity.LoginActivity;
-import com.lovejoy.activity.RegisterActivity;
-import com.lovejoy.activity.R;
-import com.lovejoy.activity.CreateActivity;
+import com.lovejoy.view.activity.LoginActivity;
+import com.lovejoy.view.activity.RegisterActivity;
+import com.lovejoy.view.activity.R;
+import com.lovejoy.view.activity.CreateActivity;
 
 import android.app.Activity;
 import android.content.Context;

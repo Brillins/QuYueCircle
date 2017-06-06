@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lovejoy.activity"
+    package="com.lovejoy.view.activity"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -41,14 +41,11 @@
             </intent-filter>
         </activity>
         <!-- <activity -->
-        <!-- android:name="com.lovejoy.activity.MainActivity" -->
+        <!-- android:name="com.lovejoy.view.activity.MainActivity" -->
         <!-- android:screenOrientation="portrait" /> -->
         <activity
-            android:name=".SettingActivity"
+            android:name=".SideMenuShowActivity"
             android:screenOrientation="portrait" />
-        <activity
-            android:name="com.lovejoy.view.MainTopRightDialog"
-            android:theme="@style/MyDialogStyleTop" />
         <activity
             android:name=".CreateActivity"
             android:label="@string/create_activity" />

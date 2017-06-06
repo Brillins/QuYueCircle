@@ -1,0 +1,13 @@
+package com.lovejoy.view.activity;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class AccessActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_access);
+    }
+}
