@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lovejoy.activity"
+    package="com.lovejoy.views.activity"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -31,7 +31,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.lovejoy.views.activity.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -41,21 +41,21 @@
             </intent-filter>
         </activity>
         <!-- <activity -->
-        <!-- android:name="com.lovejoy.activity.MainActivity" -->
+        <!-- android:name="viewss.activity.MainActivity" -->
         <!-- android:screenOrientation="portrait" /> -->
         <activity
-            android:name=".SideMenuShowActivity"
+            android:name="com.lovejoy.views.activity.SideMenuShowActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CreateActivity"
+            android:name="com.lovejoy.views.activity.CreateActivity"
             android:label="@string/create_activity" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.lovejoy.views.activity.LoginActivity"
             android:label="@string/title_activity_login" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.lovejoy.views.activity.RegisterActivity"
             android:label="@string/title_activity_register" />
-        <activity android:name=".CircleListActivity"></activity>
+        <activity android:name="com.lovejoy.views.activity.CircleListActivity"></activity>
     </application>
 
 </manifest>

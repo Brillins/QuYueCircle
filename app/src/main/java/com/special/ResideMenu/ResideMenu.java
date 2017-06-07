@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.lovejoy.activity.R;
+import com.lovejoy.views.activity.R;
 import com.nineoldandroids.animation.Animator;
 import com.nineoldandroids.animation.AnimatorSet;
 import com.nineoldandroids.animation.ObjectAnimator;
@@ -39,7 +39,7 @@ public class ResideMenu extends FrameLayout {
 	private RelativeLayout leftMenu;
 	private RelativeLayout rightMenu;
 	private RelativeLayout scrollViewMenu;
-	/** the activity that view attach to */
+	/** the activity that views attach to */
 	private Activity activity;
 	/** the decorview of the activity */
 	private ViewGroup viewDecor;
@@ -50,7 +50,7 @@ public class ResideMenu extends FrameLayout {
 
 	private float shadowAdjustScaleX;
 	private float shadowAdjustScaleY;
-	/** the view which don't want to intercept touch event */
+	/** the views which don't want to intercept touch event */
 	private List<View> ignoredViews;
 	private List<ResideMenuItem> leftMenuItems;
 	private List<ResideMenuItem> rightMenuItems;
@@ -132,7 +132,7 @@ public class ResideMenu extends FrameLayout {
 	}
 
 	/**
-	 * the visiblity of shadow under the activity view;
+	 * the visiblity of shadow under the activity views;
 	 * 
 	 * @param isVisible
 	 */
@@ -359,7 +359,7 @@ public class ResideMenu extends FrameLayout {
 
 		@Override
 		public void onAnimationEnd(Animator animation) {
-			// reset the view;
+			// reset the views;
 			if (isOpened()) {
 				viewActivity.setTouchDisable(true);
 				viewActivity.setOnClickListener(viewActivityOnClickListener);
@@ -436,7 +436,7 @@ public class ResideMenu extends FrameLayout {
 	}
 
 	/**
-	 * if there ware some view you don't want reside menu to intercept their
+	 * if there ware some views you don't want reside menu to intercept their
 	 * touch event,you can use the method to set.
 	 * 
 	 * @param v
@@ -446,7 +446,7 @@ public class ResideMenu extends FrameLayout {
 	}
 
 	/**
-	 * remove the view from ignored view list;
+	 * remove the views from ignored views list;
 	 * 
 	 * @param v
 	 */
@@ -455,14 +455,14 @@ public class ResideMenu extends FrameLayout {
 	}
 
 	/**
-	 * clear the ignored view list;
+	 * clear the ignored views list;
 	 */
 	public void clearIgnoredViewList() {
 		ignoredViews.clear();
 	}
 
 	/**
-	 * if the motion evnent was relative to the view which in ignored view
+	 * if the motion evnent was relative to the views which in ignored views
 	 * list,return true;
 	 * 
 	 * @param ev
