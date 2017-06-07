@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.lovejoy.view.activity.R;
+import com.lovejoy.activity.R;
 import com.lovejoy.adapter.ListViewAdapter;
 import com.lovejoy.connection.PostRequests;
 

@@ -1,4 +1,4 @@
-#Tue Jun 06 11:48:27 CST 2017
+#Wed Jun 07 10:52:55 CST 2017
 base.0=E\:\\ASProjects\\Library\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3e1a8bb7c83a7628d9b7345de5206b32dd107bb3
 renamed.1=classes2.dex
 renamed.0=classes.dex

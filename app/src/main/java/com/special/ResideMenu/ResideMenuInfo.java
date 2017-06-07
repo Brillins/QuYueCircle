@@ -1,6 +1,6 @@
 package com.special.ResideMenu;
 
-import com.lovejoy.view.activity.R;
+import com.lovejoy.activity.R;
 
 import android.content.Context;
 import android.view.LayoutInflater;

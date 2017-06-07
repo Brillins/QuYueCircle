@@ -1,7 +1,7 @@
 package com.lovejoy.fragment;
 
-import com.lovejoy.view.activity.CircleListActivity;
-import com.lovejoy.view.activity.R;
+import com.lovejoy.activity.CircleListActivity;
+import com.lovejoy.activity.R;
 import com.lovejoy.adapter.CircleAdapter;
 import com.lovejoy.model.CircleIcon;
 

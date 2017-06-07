@@ -1,6 +1,6 @@
 package com.lovejoy.fragment;
 
-import com.lovejoy.view.activity.R;
+import com.lovejoy.activity.R;
 import com.lovejoy.adapter.ListViewAdapter;
 import com.lovejoy.connection.PostRequests;
 

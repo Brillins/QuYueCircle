@@ -3,7 +3,7 @@ package com.lovejoy.fragment;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.lovejoy.view.activity.R;
+import com.lovejoy.activity.R;
 import com.lovejoy.view.AddPopWindow;
 
 import android.os.Bundle;
