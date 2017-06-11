@@ -12,6 +12,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,32 +28,33 @@ public class BotNavDynamicFragment extends Fragment implements OnCheckedChangeLi
 
 	private View parentView;
 	private RadioGroup radioGroup;
-	private RadioButton rbJoined, rbRecommendation, rbFriend;
+	private RadioButton rbJoined, rbRecomm, rbFriend;
 	private ViewPager  viewpager;
-    private ImageView iv_add;
+    private ImageView dynamicIvAdd;
 	List<Fragment> list = null;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-
+		
 		parentView = inflater.inflate(R.layout.fragment_bot_nav_dynamic, container, false);
 		
-		radioGroup = (RadioGroup) parentView.findViewById(R.id.radioGroup);
+		radioGroup = (RadioGroup) parentView.findViewById(R.id.dynamic_radioGroup);
 
-		rbRecommendation = (RadioButton) parentView.findViewById(R.id.rbRecommendation);
+		rbRecomm = (RadioButton) parentView.findViewById(R.id.rbRecomm);
 		rbJoined = (RadioButton) parentView.findViewById(R.id.rbJoined);
 		rbFriend = (RadioButton) parentView.findViewById(R.id.rbFriend);
 		
-		viewpager = (ViewPager)parentView.findViewById(R.id.vp_DongTai);
+		viewpager = (ViewPager)parentView.findViewById(R.id.vp_Dynamic);
 		
-		iv_add = (ImageView) parentView.findViewById(R.id.iv_add);
+		dynamicIvAdd = (ImageView) parentView.findViewById(R.id.dynamic_iv_add);
 		
 		list = new ArrayList<>();
-		DynamicTopRecomFragment tRecommendation = new DynamicTopRecomFragment();
+		DynamicTopRecomFragment tRecomm = new DynamicTopRecomFragment();
 		DynamicTopJoinedFragment tJoined = new DynamicTopJoinedFragment();
         DynamicTopFriendFragment tFriend = new DynamicTopFriendFragment();
-		list.add(tRecommendation);
+        
+		list.add(tRecomm);
 		list.add(tJoined);
         list.add(tFriend);
 		
@@ -61,7 +63,7 @@ public class BotNavDynamicFragment extends Fragment implements OnCheckedChangeLi
 		zxzc.notifyDataSetChanged();
 		
 		radioGroup.setOnCheckedChangeListener(this);
-        rbRecommendation.setChecked(true);
+        rbRecomm.setChecked(true);
 
 		//滑动切换
 		viewpager.addOnPageChangeListener(new OnPageChangeListener() {
@@ -69,7 +71,7 @@ public class BotNavDynamicFragment extends Fragment implements OnCheckedChangeLi
 			public void onPageSelected(int arg0) {
 				switch (arg0) {
                     case 0:
-						rbRecommendation.setChecked(true);
+						rbRecomm.setChecked(true);
                         break;
                     case 1:
 						rbJoined.setChecked(true);
@@ -92,12 +94,12 @@ public class BotNavDynamicFragment extends Fragment implements OnCheckedChangeLi
 		});
 		
 		//点击右边显示
-		iv_add.setOnClickListener(new OnClickListener() {
+		dynamicIvAdd.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 AddPopWindow addPopWindow = new AddPopWindow(getActivity());
-                addPopWindow.showPopupWindow(iv_add);
+                addPopWindow.showPopupWindow(dynamicIvAdd);
             }
 
         });
@@ -107,7 +109,7 @@ public class BotNavDynamicFragment extends Fragment implements OnCheckedChangeLi
 
 	@Override
 	public void onCheckedChanged(RadioGroup arg0, int checkedId) {
-		if (checkedId == rbRecommendation.getId()) {
+		if (checkedId == rbRecomm.getId()) {
 			viewpager.setCurrentItem(0);
 		} else if (checkedId == rbJoined.getId()) {
 			viewpager.setCurrentItem(1);

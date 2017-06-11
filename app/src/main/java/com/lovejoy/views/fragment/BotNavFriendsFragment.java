@@ -14,7 +14,7 @@ import android.widget.ImageView;
 public class BotNavFriendsFragment extends Fragment {
 
 	private View parentView;
-	private ImageView iv_add;
+	private ImageView friendIvAdd;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -22,15 +22,15 @@ public class BotNavFriendsFragment extends Fragment {
 
 		parentView = inflater.inflate(R.layout.fragment_bot_nav_friend, container, false);
 
-		iv_add = (ImageView) parentView.findViewById(R.id.iv_add);
+		friendIvAdd = (ImageView) parentView.findViewById(R.id.friend_iv_add);
 
 		// 点击右边显示
-		iv_add.setOnClickListener(new OnClickListener() {
+		friendIvAdd.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
 				AddPopWindow addPopWindow = new AddPopWindow(getActivity());
-				addPopWindow.showPopupWindow(iv_add);
+				addPopWindow.showPopupWindow(friendIvAdd);
 			}
 
 		});

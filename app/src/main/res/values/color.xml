@@ -6,7 +6,8 @@
     <color name="gray">#cccccc</color>
     <color name="transparent">#00000000</color>
     <color name="red">#CC0033</color>
-    <color name="zone_title_bg">#ffee71a1</color>
+    <color name="pre_zone_title_bg">#ffee71a1</color>
+    <color name="zone_title_bg">#1079FF</color>
     <color name="black">#000000</color>
     <color name="light_sky_blue">#87CEFA</color>
     <color name="main_panel_bg_color">#F5FFFA</color>

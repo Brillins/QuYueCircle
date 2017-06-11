@@ -11,8 +11,9 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.lovejoy.views.adapter.ListViewAdapter;
 import com.lovejoy.api.PostRequests;
+import com.lovejoy.model.StaticValues;
+import com.lovejoy.views.adapter.ListViewAdapter;
 
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
@@ -30,13 +31,20 @@ public class CircleListActivity extends Activity {
     private String circleTitle = null;
     Context context=null;
     List<Map<String, Object>> mlist;
-    PostRequests prequest=null;
+    PostRequests pRequest=null;
     Handler handler=null;
     Handler handler2=null;
     int size=0;
     int count=0;
     int userId=22;
-    int groudid=2;
+    int groudid;
+
+    @Override
+    protected void onResume(){
+        super.onResume();
+        tCircleListView.setAdapter(new ListViewAdapter(context, mlist));
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,12 +55,14 @@ public class CircleListActivity extends Activity {
         Intent intent = getIntent();
         circleTitle = intent.getStringExtra("circleTitle").toString();
         circleTitleView.setText(circleTitle);
+        Map<String, Integer> idMap = StaticValues.groupmap();
+        groudid = idMap.get(circleTitle);
 
         context = this;
         mlist=new ArrayList<>();
         tCircleListView = (ListView)findViewById(R.id.circle_list_view);
         JSONObject js=new JSONObject();
-        prequest=new PostRequests();
+        pRequest=new PostRequests();
 
         handler2 = new android.os.Handler() {
             @Override
@@ -73,6 +83,7 @@ public class CircleListActivity extends Activity {
                     map.put("activityDeadline",  robj.getString("end_date"));
                     map.put("startTime",  robj.getString("start_date"));
                     mlist.add(map);
+                    tCircleListView.setAdapter(new ListViewAdapter(context, mlist));
                     count++;
                     if(count==size){
 
@@ -102,7 +113,7 @@ public class CircleListActivity extends Activity {
                     size=jr.size();
                     for(i=0;i<jr.size();i++){
                         idlist.add(jr.getInt(i));
-                        prequest.sendPost("/get_activity_details","/"+Integer.toString(jr.getInt(i)),js,handler2,context);
+                        pRequest.sendPost("/get_activity_details","/"+Integer.toString(jr.getInt(i)),js,handler2,context);
 
                     }
 
@@ -113,7 +124,7 @@ public class CircleListActivity extends Activity {
 
             };};
 
-        prequest.sendPost("/get_activity_list","/"+Integer.toString(groudid),js,handler,context);
+        pRequest.sendPost("/get_activity_list","/"+Integer.toString(groudid),js,handler,context);
 
     }
 

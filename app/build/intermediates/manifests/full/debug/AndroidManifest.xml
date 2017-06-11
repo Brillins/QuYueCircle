@@ -35,7 +35,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.lovejoy.view.activity.MainActivity"
+            android:name="com.lovejoy.views.activity.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -45,21 +45,21 @@
             </intent-filter>
         </activity>
         <!-- <activity -->
-        <!-- android:name="com.lovejoy.view.activity.MainActivity" -->
+        <!-- android:name="viewss.activity.MainActivity" -->
         <!-- android:screenOrientation="portrait" /> -->
         <activity
-            android:name="com.lovejoy.view.activity.SideMenuShowActivity"
+            android:name="com.lovejoy.views.activity.SideMenuShowActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.lovejoy.view.activity.CreateActivity"
+            android:name="com.lovejoy.views.activity.CreateActivity"
             android:label="@string/create_activity" />
         <activity
-            android:name="com.lovejoy.view.activity.LoginActivity"
+            android:name="com.lovejoy.views.activity.LoginActivity"
             android:label="@string/title_activity_login" />
         <activity
-            android:name="com.lovejoy.view.activity.RegisterActivity"
+            android:name="com.lovejoy.views.activity.RegisterActivity"
             android:label="@string/title_activity_register" />
-        <activity android:name="com.lovejoy.view.activity.CircleListActivity" />
+        <activity android:name="com.lovejoy.views.activity.CircleListActivity" />
     </application>
 
 </manifest>

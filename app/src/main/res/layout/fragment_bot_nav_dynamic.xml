@@ -4,16 +4,18 @@
     android:layout_height="fill_parent" >
 
     <LinearLayout
-        android:id="@+id/layout_zone"
+        android:id="@+id/dynamic_layout_zone"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical" >
 
         <!--<include layout="@layout/fragment_dongtai_header1" />-->
+
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -38,7 +40,7 @@
                         android:onClick="onClickLiftMenu" />
 
                     <ImageView
-                        android:id="@+id/iv_add"
+                        android:id="@+id/dynamic_iv_add"
                         android:layout_width="45.5dip"
                         android:layout_height="23.5dip"
                         android:layout_alignParentRight="true"
@@ -48,19 +50,19 @@
                         android:src="@drawable/add" />
 
                     <RadioGroup
-                        android:id="@+id/radioGroup"
+                        android:id="@+id/dynamic_radioGroup"
                         android:layout_width="match_parent"
                         android:layout_height="30.0dip"
                         android:layout_marginBottom="3dip"
                         android:layout_marginLeft="36dip"
                         android:layout_marginRight="36dip"
-                        android:layout_toLeftOf="@+id/iv_add"
+                        android:layout_toLeftOf="@+id/dynamic_iv_add"
                         android:layout_toRightOf="@+id/title_bar_left_menu"
                         android:background="@drawable/tab_bg"
                         android:orientation="horizontal" >
 
                         <RadioButton
-                            android:id="@+id/rbRecommendation"
+                            android:id="@+id/rbRecomm"
                             android:layout_width="0.0dip"
                             android:layout_height="30.0dip"
                             android:layout_weight="1.0"
@@ -105,7 +107,7 @@
         </LinearLayout>
 
         <android.support.v4.view.ViewPager
-            android:id="@+id/vp_DongTai"
+            android:id="@+id/vp_Dynamic"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" />
     </LinearLayout>

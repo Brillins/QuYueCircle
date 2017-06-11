@@ -29,7 +29,7 @@
                 android:onClick="onClickLiftMenu" />
 
             <ImageView
-                android:id="@+id/iv_add"
+                android:id="@+id/circle_iv_add"
                android:layout_width="45.5dip"
                 android:layout_height="23.5dip"
                 android:layout_alignParentRight="true"
@@ -39,13 +39,13 @@
                 android:src="@drawable/add" />
 
             <RadioGroup
-                android:id="@+id/radioGroup_quanzi"
+                android:id="@+id/circle_radioGroup"
                 android:layout_width="match_parent"
                 android:layout_height="30.0dip"
                 android:layout_marginBottom="3dip"
                 android:layout_marginLeft="36dip"
                 android:layout_marginRight="36dip"
-                android:layout_toLeftOf="@+id/iv_add"
+                android:layout_toLeftOf="@+id/circle_iv_add"
                 android:layout_toRightOf="@+id/title_bar_left_menu"
                 android:background="@drawable/tab_bg"
                 android:orientation="horizontal" >
@@ -90,7 +90,7 @@
         </RelativeLayout>
 
     <android.support.v4.view.ViewPager
-        android:id="@+id/vp_QuanZi"
+        android:id="@+id/vp_Circle"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_below="@+id/hair_topic_layout" />

@@ -1,5 +1,6 @@
 package com.lovejoy.views.fragment;
 
+import com.lovejoy.model.StaticValues;
 import com.lovejoy.views.activity.CircleListActivity;
 import com.lovejoy.views.activity.R;
 import com.lovejoy.views.adapter.CircleAdapter;
@@ -17,6 +18,7 @@ import android.widget.GridView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 
 public class CircleTopSportFragment extends Fragment {
@@ -40,18 +42,18 @@ public class CircleTopSportFragment extends Fragment {
         sport_gridView = (GridView) getActivity().findViewById(R.id.sport_grid_view);
 
         mData = new ArrayList<CircleIcon>();
-        mData.add(new CircleIcon(R.drawable.sport_icon_01_pink, "篮球"));
-        mData.add(new CircleIcon(R.drawable.sport_icon_02_pink, "足球"));
-        mData.add(new CircleIcon(R.drawable.sport_icon_03_pink, "网球"));
-        mData.add(new CircleIcon(R.drawable.sport_icon_04_pink, "跑步"));
-        mData.add(new CircleIcon(R.drawable.sport_icon_05_pink, "攀岩"));
-        mData.add(new CircleIcon(R.drawable.sport_icon_06_pink, "自行车"));
-        mData.add(new CircleIcon(R.drawable.sport_icon_07_pink, "乒乓球"));
-        mData.add(new CircleIcon(R.drawable.sport_icon_08_pink, "健身"));
-        mData.add(new CircleIcon(R.drawable.sport_icon_09_pink, "羽毛球"));
-        mData.add(new CircleIcon(R.drawable.sport_icon_10_pink, "游泳"));
-        mData.add(new CircleIcon(R.drawable.sport_icon_11_pink, "棒球"));
-        mData.add(new CircleIcon(R.drawable.sport_icon_12_pink, "太极拳"));
+        mData.add(new CircleIcon(R.drawable.sport_icon_01_blue, "篮球"));
+        mData.add(new CircleIcon(R.drawable.sport_icon_02_blue, "足球"));
+        mData.add(new CircleIcon(R.drawable.sport_icon_03_blue, "网球"));
+        mData.add(new CircleIcon(R.drawable.sport_icon_04_blue, "跑步"));
+        mData.add(new CircleIcon(R.drawable.sport_icon_05_blue, "攀岩"));
+        mData.add(new CircleIcon(R.drawable.sport_icon_06_blue, "自行车"));
+        mData.add(new CircleIcon(R.drawable.sport_icon_07_blue, "乒乓球"));
+        mData.add(new CircleIcon(R.drawable.sport_icon_08_blue, "健身"));
+        mData.add(new CircleIcon(R.drawable.sport_icon_09_blue, "羽毛球"));
+        mData.add(new CircleIcon(R.drawable.sport_icon_10_blue, "游泳"));
+        mData.add(new CircleIcon(R.drawable.sport_icon_11_blue, "棒球"));
+        mData.add(new CircleIcon(R.drawable.sport_icon_12_blue, "太极拳"));
 
         mAdapter = new CircleAdapter<CircleIcon>(mData, R.layout.fragment_circle_top_sport_item) {
             @Override

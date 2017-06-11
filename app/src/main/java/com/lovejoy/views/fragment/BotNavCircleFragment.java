@@ -26,24 +26,25 @@ public class BotNavCircleFragment extends Fragment implements OnCheckedChangeLis
 	private RadioGroup radioGroup;
 	private RadioButton rbSport, rbArt, rbStudy;
 	private ViewPager viewpager;
-	private ImageView iv_add;
+	private ImageView circleIvAdd;
 
 	List<Fragment> list = null;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
+		
 		View view = inflater.inflate(R.layout.fragment_bot_nav_circle, container, false);
         
-		viewpager = (ViewPager) view.findViewById(R.id.vp_QuanZi);
+		viewpager = (ViewPager) view.findViewById(R.id.vp_Circle);
         
-		radioGroup = (RadioGroup) view.findViewById(R.id.radioGroup_quanzi);
+		radioGroup = (RadioGroup) view.findViewById(R.id.circle_radioGroup);
         
 		rbSport = (RadioButton) view.findViewById(R.id.rb_sport);
 		rbArt = (RadioButton) view.findViewById(R.id.rb_art);
 		rbStudy = (RadioButton) view.findViewById(R.id.rb_study);
         
-		iv_add = (ImageView) view.findViewById(R.id.iv_add);
+		circleIvAdd = (ImageView) view.findViewById(R.id.circle_iv_add);
 
 		list = new ArrayList<Fragment>();
 
@@ -92,11 +93,11 @@ public class BotNavCircleFragment extends Fragment implements OnCheckedChangeLis
 				
 
 		// 点击右边显示
-		iv_add.setOnClickListener(new OnClickListener() {
+		circleIvAdd.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				AddPopWindow addPopWindow = new AddPopWindow(getActivity());
-				addPopWindow.showPopupWindow(iv_add);
+				addPopWindow.showPopupWindow(circleIvAdd);
 			}
 		});
 
@@ -118,10 +119,7 @@ public class BotNavCircleFragment extends Fragment implements OnCheckedChangeLis
 		}
 
 		@Override
-		public int getCount() {
-
-			return list.size();
-		}
+		public int getCount() { return list.size(); }
 
 	}
 
