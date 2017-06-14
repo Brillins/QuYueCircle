@@ -1,6 +1,7 @@
 package com.lovejoy.views.activity;
 
 import android.Manifest;
+import android.app.Activity;
 import android.app.Service;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -55,7 +56,7 @@ import org.w3c.dom.Text;
 /**
  * 主界面
  */
-public class ChangeInformationActivity extends AppCompatActivity implements View.OnClickListener {
+public class ChangeInformationActivity extends Activity implements View.OnClickListener {
     //请求相机
     int userid=22;
     Handler handler=null;

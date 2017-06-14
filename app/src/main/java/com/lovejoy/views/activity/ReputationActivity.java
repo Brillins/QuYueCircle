@@ -1,5 +1,6 @@
 package com.lovejoy.views.activity;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
@@ -22,7 +23,7 @@ import java.util.List;
 /**
  * Created by lenovo on 2017/6/13.
  */
-public class ReputationActivity extends AppCompatActivity{
+public class ReputationActivity extends Activity {
 
     private List<ReputationItem> reputationList=new ArrayList<ReputationItem>();
     private TextView reputation_textview;

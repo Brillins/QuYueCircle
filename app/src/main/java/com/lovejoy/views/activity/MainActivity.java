@@ -120,9 +120,10 @@ public class MainActivity extends FragmentActivity implements
             Intent intent = new Intent(this,ChangeInformationActivity.class);
 			startActivity(intent);
 		} else if (view == itemCredit) {
-			Intent intent = new Intent();
-			intent.putExtra("flog", "信用积分");
-			intent.setClass(getApplicationContext(), SideMenuShowActivity.class);
+//			Intent intent = new Intent();
+//			intent.putExtra("flog", "信用积分");
+//			intent.setClass(getApplicationContext(), SideMenuShowActivity.class);
+            Intent intent = new Intent(this,ReputationActivity.class);
 			startActivity(intent);
 		} else if (view == itemCircle) {
 //            Intent intent = new Intent();
