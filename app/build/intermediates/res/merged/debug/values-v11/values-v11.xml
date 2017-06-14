@@ -1,8 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CircleImageView">
-        <attr format="dimension" name="border_width"/>
-        <attr format="color" name="border_color"/>
+        <attr format="dimension" name="civ_border_width"/>
+        <attr format="color" name="civ_border_color"/>
+        <attr format="boolean" name="civ_border_overlay"/>
+        <attr format="color" name="civ_fill_color"/>
+    </declare-styleable>
+    <declare-styleable name="ClipViewLayout">
+        <attr format="enum" name="clipType">
+            <enum name="circle" value="1"/>
+            <enum name="rectangle" value="2"/>
+        </attr>
+        <attr format="dimension" name="mHorizontalPadding"/>
+        <attr format="dimension" name="clipBorderWidth"/>
+    </declare-styleable>
+    <declare-styleable name="RoundedImageView">
+        <attr format="dimension" name="riv_corner_radius"/>
+        <attr format="dimension" name="riv_corner_radius_top_left"/>
+        <attr format="dimension" name="riv_corner_radius_top_right"/>
+        <attr format="dimension" name="riv_corner_radius_bottom_left"/>
+        <attr format="dimension" name="riv_corner_radius_bottom_right"/>
+        <attr format="dimension" name="riv_border_width"/>
+        <attr format="color" name="riv_border_color"/>
+        <attr format="boolean" name="riv_mutate_background"/>
+        <attr format="boolean" name="riv_oval"/>
+        <attr name="android:scaleType"/>
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0"/>
+            <enum name="repeat" value="1"/>
+            <enum name="mirror" value="2"/>
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0"/>
+            <enum name="repeat" value="1"/>
+            <enum name="mirror" value="2"/>
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0"/>
+            <enum name="repeat" value="1"/>
+            <enum name="mirror" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="XlHRatingBar">
+        <attr format="integer" name="starCount"/><!--总的星星数-->
+        <attr format="boolean" name="canEdit"/><!--是否可以点击选择，有时候纯展示用不需要选择-->
+        <attr format="dimension" name="widthAndHeight"/><!--单个星星的宽度-->
+        <attr format="dimension" name="dividerWidth"/><!--星星左右间距-->
+        <attr format="integer" name="countSelected"/><!--当前已选中的星星个数-->
+        <attr format="reference" name="stateResId"/><!--单个星星不同状态下对应的图标-->
+        <attr format="boolean" name="differentSize"/><!--是否支持大小不等星星样式-->
     </declare-styleable>
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
         <!-- API 11 theme customizations can go here. -->

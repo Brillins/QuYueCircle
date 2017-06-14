@@ -1,12 +1,15 @@
 package com.lovejoy.views.activity;
 
 import android.app.Activity;
+import android.app.DatePickerDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
@@ -21,6 +24,7 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ImageView;
@@ -30,11 +34,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+import com.lovejoy.api.PostRequests;
 import com.lovejoy.model.ImageTool;
 
-import java.io.ByteArrayOutputStream;
-import java.io.File;
+import net.sf.json.JSONObject;
+
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -49,16 +56,23 @@ public class CreateActivity extends Activity {
 	private  ImageView ima;
 	private List<String> list;//上传图片的绝对路径集合 除了最后一个元素
 	private List<Bitmap> L;
+	List<Integer> picid;
 	private TextView addLabel;
 	private List<String> label;//标签集合
 	private List<Map<String, Object>> data_list;
 	private GridView gridLabel;
 	private SimpleAdapter sim_adapter;
 	private Button launch;//发布活动按钮
-
-
-
-
+	private EditText NameEdit;
+	private EditText Sponsor;
+	private EditText DescEdit;
+	private EditText StartTimeEdit;
+	private EditText DeadlineEdit;
+	private EditText MinNumEdit;
+	private EditText MaxNumEdit;
+	int publisherid=22;
+	int groupid=2;
+	Context context=this;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -69,6 +83,34 @@ public class CreateActivity extends Activity {
 		addLabel=(TextView)this.findViewById(R.id.AddLabel);
 		gridLabel=(GridView)this.findViewById(R.id.GridLabel);
 		launch=(Button)this.findViewById(R.id.Launch);
+		NameEdit=(EditText) this.findViewById(R.id.NameEdit);
+		Sponsor=(EditText) this.findViewById(R.id.Sponsor);
+		DescEdit=(EditText) this.findViewById(R.id.DescEdit);
+		StartTimeEdit=(EditText) this.findViewById(R.id.StartTimeEdit);
+		DeadlineEdit=(EditText) this.findViewById(R.id.DeadlineEdit);
+		MinNumEdit=(EditText) this.findViewById(R.id.MinNumEdit);
+		MaxNumEdit=(EditText) this.findViewById(R.id.MaxNumEdit);
+
+
+		DeadlineEdit.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+
+			@Override
+			public void onFocusChange(View v, boolean hasFocus) {
+				if (hasFocus) {
+					showDatePickDlg();
+				}
+			}
+		});
+
+		StartTimeEdit.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+
+			@Override
+			public void onFocusChange(View v, boolean hasFocus) {
+				if (hasFocus) {
+					showDatePickDlg2();
+				}
+			}
+		});
 		if(label==null)
 			label=new ArrayList<String>();
 		if(data_list==null)
@@ -181,7 +223,47 @@ public class CreateActivity extends Activity {
 		gridView = (GridView) findViewById(R.id.gridview);
 		SelectPicture();
 
+		launch.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				String name,publisher,description,start_date,end_date,min_num,max_num,tags;
+				name=NameEdit.getText().toString();
+				publisher=Sponsor.getText().toString();
+				description=DescEdit.getText().toString();
+				start_date=StartTimeEdit.getText().toString();
+				end_date=DeadlineEdit.getText().toString();
+				min_num=MinNumEdit.getText().toString();
+				max_num=MaxNumEdit.getText().toString();
+				tags="";
+				if (label.size()>0){
+					tags=label.get(0);
+					for(int i=1;i<label.size();i++){
+						tags=tags+","+label.get(i);
+					}}
+				System.out.println(tags);
+				Map<String,String> map=new HashMap<>();
+				map.put("name",name);
+				map.put("publisher",Integer.toString(publisherid));
 
+				map.put("description",description);
+				map.put("start_date",start_date);
+				map.put("end_date",end_date);
+				map.put("min_num",min_num);
+				map.put("max_num",max_num);
+				map.put("join_ids","");
+
+				map.put("is_canceled",Integer.toString(0));
+				map.put("cur_num",Integer.toString(1));
+				map.put("pic_id",Integer.toString(14));
+				map.put("tags",tags);
+				map.put("group_id",Integer.toString(groupid));
+				JSONObject obj=new JSONObject();
+				obj=JSONObject.fromObject(map);
+				PostRequests pr=new PostRequests();
+				pr.sendPost("/admit_activity","",obj,handler,context);
+
+			}
+		});
 	}
 
 
@@ -202,7 +284,7 @@ public class CreateActivity extends Activity {
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				if (list.get(position).equals(IMA_ADD_TAG)) {
 					if (list.size() < IMG_COUNT) {
-						Intent i = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+						Intent i = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
 						startActivityForResult(i, 0);
 					} else
 						Toast.makeText(CreateActivity.this, "最多只能选择7张照片！", Toast.LENGTH_SHORT).show();
@@ -343,12 +425,86 @@ public class CreateActivity extends Activity {
 			return null;
 		}
 	}
+	Handler handler=new Handler(){
+		public void handleMessage(android.os.Message msg){
+			if(msg!=null){
+				Object result=msg.obj;
+				JSONObject robj=JSONObject.fromObject(result);
+				int actid=robj.getInt("actid");
+				if (actid!=-1){
+					//
+				}
+			}
+		}
+	};
 	public void launch(View v){
+		SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-		System.out.println("hzzzzzz"+L.size());
+		String name,publisher,description,start_date,end_date,min_num,max_num,tags;
+		name=NameEdit.getText().toString();
+		publisher=Sponsor.getText().toString();
+		description=DescEdit.getText().toString();
+		start_date=StartTimeEdit.getText().toString();
+		end_date=DeadlineEdit.getText().toString();
+		min_num=MinNumEdit.getText().toString();
+		max_num=MaxNumEdit.getText().toString();
+		tags="";
+		for(int i=0;i<label.size();i++){
+			tags=tags+","+label.get(i);
+		}
+		System.out.println(tags);
+		Map<String,String> map=new HashMap<>();
+		map.put("name",name);
+		map.put("publisher",Integer.toString(publisherid));
+
+		map.put("description",description);
+		map.put("start_date",start_date);
+		map.put("end_date",end_date);
+		map.put("min_num",min_num);
+		map.put("max_num",max_num);
+		map.put("join_ids","");
+
+		map.put("is_cancled",Integer.toString(0));
+		map.put("cur_num",Integer.toString(1));
+		map.put("pic_id",Integer.toString(14));
+		map.put("tags",tags);
+		map.put("group_id",Integer.toString(groupid));
+		JSONObject obj=new JSONObject();
+		obj=JSONObject.fromObject(map);
+		PostRequests pr=new PostRequests();
+		pr.sendPost("/admit_activity","",obj,handler,this);
+
 	}
 
 
 
+	protected void showDatePickDlg() {
+		Calendar calendar = Calendar.getInstance();
+
+		DatePickerDialog datePickerDialog = new DatePickerDialog(CreateActivity.this, new DatePickerDialog.OnDateSetListener() {
+
+			@Override
+			public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+				CreateActivity.this.DeadlineEdit.setText(year + "-" + monthOfYear + "-" + dayOfMonth+" "+"12:00:00");
+			}
+		}, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
+		datePickerDialog.show();
+
+	}
+
+
+	protected void showDatePickDlg2() {
+		Calendar calendar = Calendar.getInstance();
+
+		DatePickerDialog datePickerDialog = new DatePickerDialog(CreateActivity.this, new DatePickerDialog.OnDateSetListener() {
+
+			@Override
+			public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+				CreateActivity.this.StartTimeEdit.setText(year + "-" + monthOfYear + "-" + dayOfMonth+" "+"12:00:00");
+			}
+		}, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
+		datePickerDialog.show();
+
+	}
 
 }

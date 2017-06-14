@@ -2,11 +2,10 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.lovejoy.views.activity.CreateActivity">
+    tools:context="com.example.pc.myapplication.CreateActivity">
     <RelativeLayout
         android:id="@+id/LaunchTop"
         android:layout_width="match_parent"
@@ -27,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/Launch"
-            android:onClick="launch"
+
             android:layout_alignParentRight="true"
             android:background="@color/zone_title_bg"/>
     </RelativeLayout>
@@ -44,7 +43,7 @@
 
         <EditText
             android:id="@+id/NameEdit"
-            android:layout_height="40dp"
+            android:layout_height="30dp"
             android:layout_width="match_parent"
             android:padding="5dp"
             android:inputType="text"
@@ -73,6 +72,21 @@
             android:background="@color/devide_line"
             android:layout_below="@id/DescEdit"/>
         <EditText
+            android:id="@+id/Sponsor"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:inputType="text"
+            android:hint="发布者"
+            android:layout_below="@id/DescEdit"
+            android:background="@drawable/launch_et_bg"
+            android:layout_margin="2dp"/>
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="@color/devide_line"
+            android:layout_below="@id/Sponsor"/>
+        <EditText
             android:id="@+id/MinNumEdit"
             android:layout_height="40dp"
             android:layout_width="match_parent"
@@ -80,7 +94,7 @@
             android:inputType="text"
             android:hint="最低活动人数"
             android:background="@drawable/launch_et_bg"
-            android:layout_below="@id/DescEdit"
+            android:layout_below="@id/Sponsor"
             android:layout_margin="2dp"/>
         <View
             android:layout_height="0.5dp"
@@ -108,7 +122,7 @@
             android:layout_width="match_parent"
             android:padding="5dp"
             android:inputType="text"
-            android:hint="报名开始时间"
+            android:hint="活动时间"
             android:background="@drawable/launch_et_bg"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"

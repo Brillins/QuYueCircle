@@ -20,6 +20,10 @@
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\selector_quanzi.xml"
     },
     {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\evaluation_order_star_press.png",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\evaluation_order_star_press.png"
+    },
+    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\art_icon_09_pink.png",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\art_icon_09_pink.png"
     },
@@ -140,6 +144,10 @@
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\study_icon_08_blue.png"
     },
     {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\robot.png",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\robot.png"
+    },
+    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sport_icon_04_pink.png",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\sport_icon_04_pink.png"
     },
@@ -182,6 +190,10 @@
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\art_icon_01_blue.png",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\art_icon_01_blue.png"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textviewgrey.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\textviewgrey.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
@@ -228,16 +240,16 @@
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\art_icon_04_pink.png"
     },
     {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\study_icon_03_pink.png",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\study_icon_03_pink.png"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\study_icon_03_pink.png",
-        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\study_icon_03_pink.png"
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\study_icon_04_blue.png",
@@ -272,8 +284,16 @@
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\art_icon_06_blue.png"
     },
     {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogstyle.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\dialogstyle.xml"
+    },
+    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sport_icon_12_pink.png",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\sport_icon_12_pink.png"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\headimage.png",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\headimage.png"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
@@ -286,6 +306,10 @@
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\study_icon_10_pink.png",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\study_icon_10_pink.png"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_back.png",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\button_back.png"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\preference_last_item.xml",
@@ -346,6 +370,10 @@
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\study_icon_06_blue.png",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\study_icon_06_blue.png"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\ic_launcher.png"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sport_icon_08_pink.png",
@@ -432,6 +460,10 @@
         "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonbg.png",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\buttonbg.png"
+    },
+    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_new_selector.xml",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\radio_new_selector.xml"
     },
@@ -446,6 +478,10 @@
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sport_icon_07_pink.png",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\sport_icon_07_pink.png"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textview.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\textview.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sport_icon_12_blue.png",
@@ -472,6 +508,10 @@
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\art_icon_05_blue.png"
     },
     {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_corner.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\shape_corner.xml"
+    },
+    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sport_icon_11_pink.png",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\sport_icon_11_pink.png"
     },
@@ -488,12 +528,20 @@
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\launch_default_avatar.png"
     },
     {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\comment_ratingbar_selector.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\comment_ratingbar_selector.xml"
+    },
+    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
         "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hair_diagnose_top_tab_bg_right_selector.xml",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\hair_diagnose_top_tab_bg_right_selector.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_bombbox.9.png",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\bg_bombbox.9.png"
     },
     {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
@@ -524,6 +572,10 @@
         "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bg1.xml",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\btn_bg1.xml"
+    },
+    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
         "source": "C:\\Users\\91534\\.android\\build-cache\\42bbb7dcddc91b22b7e0c71ab31644cad8620e72\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
@@ -552,6 +604,10 @@
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\study_icon_04_pink.png"
     },
     {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_back_white.png",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\btn_back_white.png"
+    },
+    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\study_icon_07_pink.png",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\study_icon_07_pink.png"
     },
@@ -560,7 +616,15 @@
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\sport_icon_05_blue.png"
     },
     {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\evaluation_order_star.png",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\evaluation_order_star.png"
+    },
+    {
         "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bot_nav_text_color.xml",
         "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\bot_nav_text_color.xml"
+    },
+    {
+        "merged": "E:\\ASProjects\\Library\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back_button.png",
+        "source": "E:\\ASProjects\\Library\\app\\src\\main\\res\\drawable\\back_button.png"
     }
 ]

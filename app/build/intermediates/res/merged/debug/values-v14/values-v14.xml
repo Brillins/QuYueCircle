@@ -55,6 +55,19 @@
         <item>建筑结构设计</item>
         <item>图书漂流</item>
     </string-array>
+    <string-array name="school">
+        <item>北京大学</item>
+        <item>中国人民大学</item>
+        <item>清华大学</item>
+        <item>北京交通大学</item>
+        <item>北京工业大学</item>
+        <item>北京航空航天大学</item>
+        <item>北京理工大学</item>
+        <item>北京科技大学</item>
+        <item>北方工业大学</item>
+        <item>北京化工大学</item>
+        <item>北京工商大学</item>
+    </string-array>
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- API 14 theme customizations can go here. -->
     </style>

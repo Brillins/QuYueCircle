@@ -52,14 +52,30 @@
         <item>体育</item>
         <item>其他</item>
     </string-array>
+
     <string-array name="Sport">
         <item>篮球</item>>
         <item>足球</item>>
         <item>排球</item>>
-    </string-array>>
+    </string-array>
+
     <string-array name="Other">
         <item>舞会</item>>
         <item>电影</item>>
-    </string-array>>
+    </string-array>
+
+    <string-array name="school">
+        <item>北京大学</item>
+        <item>中国人民大学</item>
+        <item>清华大学</item>
+        <item>北京交通大学</item>
+        <item>北京工业大学</item>
+        <item>北京航空航天大学</item>
+        <item>北京理工大学</item>
+        <item>北京科技大学</item>
+        <item>北方工业大学</item>
+        <item>北京化工大学</item>
+        <item>北京工商大学</item>
+    </string-array>
 
 </resources>

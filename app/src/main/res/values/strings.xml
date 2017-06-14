@@ -56,6 +56,8 @@
     <string name="spacer_number">~</string>
     <string name="circle_title">圈子标题</string>
 
+    <string name="attention_circle">我关注的圈子</string>
+
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>

@@ -4,7 +4,7 @@
     android:id="@+id/activity_detail"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lovejoy.activity.DetailActivity">
+    tools:context="com.lovejoy.views.activity.DetailActivity">
     <RelativeLayout
         android:id="@+id/LaunchTop"
         android:layout_width="match_parent"
@@ -46,7 +46,7 @@
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true">
             <TextView
-                android:id="@+id/NameEdit"
+                android:id="@+id/Name"
                 android:layout_height="30dp"
                 android:layout_width="match_parent"
                 android:padding="5dp"
@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:background="@color/devide_line"/>
             <TextView
-                android:id="@+id/DescEdit"
+                android:id="@+id/Desc"
                 android:layout_height="30dp"
                 android:layout_width="match_parent"
                 android:padding="5dp"
@@ -72,12 +72,12 @@
                 android:layout_width="match_parent"
                 android:background="@color/devide_line"/>
             <TextView
-                android:id="@+id/NumEdit"
+                android:id="@+id/Sponsor"
                 android:layout_height="30dp"
                 android:layout_width="match_parent"
                 android:padding="5dp"
-                android:inputType="text"
-                android:hint="人数:3/5"
+                android:inputType="textPassword"
+                android:hint="发布者:"
                 android:background="@drawable/launch_et_bg"
                 android:layout_margin="2dp"/>
             <View
@@ -85,12 +85,12 @@
                 android:layout_width="match_parent"
                 android:background="@color/devide_line"/>
             <TextView
-                android:id="@+id/DeadlineEdit"
+                android:id="@+id/CurrentNum"
                 android:layout_height="30dp"
                 android:layout_width="match_parent"
                 android:padding="5dp"
                 android:inputType="text"
-                android:hint="发布时间:"
+                android:hint="当前人数:3"
                 android:background="@drawable/launch_et_bg"
                 android:layout_margin="2dp"/>
             <View
@@ -98,24 +98,85 @@
                 android:layout_width="match_parent"
                 android:background="@color/devide_line"/>
             <TextView
-                android:id="@+id/AddressEdit"
+                android:id="@+id/MinNum"
                 android:layout_height="30dp"
                 android:layout_width="match_parent"
                 android:padding="5dp"
                 android:inputType="text"
-                android:hint="地点:"
+                android:hint="最少人数:3"
                 android:background="@drawable/launch_et_bg"
                 android:layout_margin="2dp"/>
             <View
                 android:layout_height="0.5dp"
                 android:layout_width="match_parent"
                 android:background="@color/devide_line"/>
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/launch_default_avatar"
-                android:id="@+id/image1"
-                />
+            <TextView
+                android:id="@+id/MaxNum"
+                android:layout_height="30dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:inputType="text"
+                android:hint="最多人数:5"
+                android:background="@drawable/launch_et_bg"
+                android:layout_margin="2dp"/>
+            <View
+                android:layout_height="0.5dp"
+                android:layout_width="match_parent"
+                android:background="@color/devide_line"/>
+            <TextView
+                android:id="@+id/StartTime"
+                android:layout_height="30dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:inputType="text"
+                android:hint="报名开始时间:"
+                android:background="@drawable/launch_et_bg"
+                android:layout_margin="2dp"/>
+            <View
+                android:layout_height="0.5dp"
+                android:layout_width="match_parent"
+                android:background="@color/devide_line"/>
+            <TextView
+                android:id="@+id/Deadline"
+                android:layout_height="30dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:inputType="text"
+                android:hint="报名截止时间:"
+                android:background="@drawable/launch_et_bg"
+                android:layout_margin="2dp"/>
+            <View
+                android:layout_height="0.5dp"
+                android:layout_width="match_parent"
+                android:background="@color/devide_line"/>
+
+            <TextView
+                android:id="@+id/Address"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/launch_et_bg"
+                android:hint="标签:"
+                android:inputType="text"
+                android:padding="5dp" />
+
+            <View
+                android:layout_height="0.5dp"
+                android:layout_width="match_parent"
+                android:background="@color/devide_line"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:padding="5dp">
+
+                <GridView
+                    android:id="@+id/gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:numColumns="4" />
+
+            </LinearLayout>
             <View
                 android:layout_height="0.5dp"
                 android:layout_width="match_parent"
@@ -124,24 +185,9 @@
             <Button
                 android:text="加入"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:id="@+id/Join"
                 />
-            <View
-                android:layout_height="0.5dp"
-                android:layout_width="match_parent"
-                android:background="@color/devide_line"/>
-
-            <Button
-                android:text="邀请"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/Invite" />
-            <View
-                android:layout_height="0.5dp"
-                android:layout_width="match_parent"
-                android:background="@color/devide_line"/>
-
             <View
                 android:layout_height="0.5dp"
                 android:layout_width="match_parent"

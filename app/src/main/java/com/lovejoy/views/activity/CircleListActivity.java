@@ -119,7 +119,7 @@ public class CircleListActivity extends Activity {
 
                 }
                 else{
-                    Log.e("zhenshabi","youcuole");
+                    Log.e("hahaha","youcuole");
                 }
 
             };};

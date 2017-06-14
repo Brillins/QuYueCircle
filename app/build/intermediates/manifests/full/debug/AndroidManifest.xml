@@ -24,6 +24,9 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <meta-data
         android:name="android.support.VERSION"
@@ -60,6 +63,7 @@
             android:name="com.lovejoy.views.activity.RegisterActivity"
             android:label="@string/title_activity_register" />
         <activity android:name="com.lovejoy.views.activity.CircleListActivity" />
+        <activity android:name="com.lovejoy.views.activity.AttentionActivity" />
     </application>
 
 </manifest>

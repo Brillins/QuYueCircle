@@ -114,9 +114,10 @@ public class MainActivity extends FragmentActivity implements
 	public void onClick(View view) {
 
 		if (view == itemPerson) {
-			Intent intent = new Intent();
-			intent.putExtra("flog", "个人中心");
-			intent.setClass(getApplicationContext(), SideMenuShowActivity.class);
+//			Intent intent = new Intent();
+//			intent.putExtra("flog", "个人中心");
+//			intent.setClass(getApplicationContext(), SideMenuShowActivity.class);
+            Intent intent = new Intent(this,ChangeInformationActivity.class);
 			startActivity(intent);
 		} else if (view == itemCredit) {
 			Intent intent = new Intent();
@@ -124,9 +125,10 @@ public class MainActivity extends FragmentActivity implements
 			intent.setClass(getApplicationContext(), SideMenuShowActivity.class);
 			startActivity(intent);
 		} else if (view == itemCircle) {
-            Intent intent = new Intent();
-            intent.putExtra("flog", "已关注的圈子");
-            intent.setClass(getApplicationContext(), SideMenuShowActivity.class);
+//            Intent intent = new Intent();
+//            intent.putExtra("flog", "已关注的圈子");
+//            intent.setClass(getApplicationContext(), SideMenuShowActivity.class);
+            Intent intent = new Intent(this,AttentionActivity.class);
             startActivity(intent);
         } else if (view == itemHistory) {
 			Intent intent = new Intent();

@@ -698,6 +698,7 @@
     <string name="app_name">悦趣</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="art">文艺</string>
+    <string name="attention_circle">我关注的圈子</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="brief">简介：</string>
     <string name="brief_content">简介内容</string>
@@ -1798,6 +1799,17 @@
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+
+        <item name="android:background">#00000000</item>
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowIsFloating">true</item>
+
+    </style>
     <style name="MyDialogStyleTop" parent="android:Theme.Dialog">
         <item name="android:windowAnimationStyle">@style/AnimTop2</item>
         <item name="android:windowFrame">@null</item><!--边框-->
@@ -2286,4 +2298,54 @@
         <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
     </style>
     <style name="dialogTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar"/>
+    <style name="sdw_79351b">
+
+        <item name="android:shadowColor">#ff79351b</item>
+
+        <item name="android:shadowDx">0.0</item>
+
+        <item name="android:shadowDy">1.0</item>
+
+        <item name="android:shadowRadius">1.0</item>
+
+    </style>
+    <style name="sdw_white">
+
+        <item name="android:shadowColor">#7fffffff</item>
+
+        <item name="android:shadowDx">0.0</item>
+
+        <item name="android:shadowDy">0.65</item>
+
+        <item name="android:shadowRadius">1.0</item>
+
+    </style>
+    <style name="text_15_666666_sdw" parent="@style/sdw_white">
+
+        <item name="android:textSize">15.0dip</item>
+
+        <item name="android:textColor">#ff666666</item>
+
+    </style>
+    <style name="text_15_ffffff_sdw" parent="@style/sdw_79351b">
+
+        <item name="android:textSize">15.0dip</item>
+
+        <item name="android:textColor">#ffffffff</item>
+
+    </style>
+    <style name="text_16_666666">
+
+        <item name="android:textSize">16.0dip</item>
+
+        <item name="android:textColor">#ff666666</item>
+
+    </style>
+    <style name="text_18_ffffff">
+
+        <item name="android:textSize">18.0dip</item>
+
+        <item name="android:textColor">#ffffffff</item>
+
+    </style>
 </resources>

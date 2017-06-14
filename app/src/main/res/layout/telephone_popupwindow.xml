@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:background="@drawable/shape_corner"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_text_view_new_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#1079FF"
+            android:enabled="true"
+            android:singleLine="true"
+            android:hint="新手机号"
+            android:textColorHint="#1079FF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_corner">
+
+        <Button
+            android:id="@+id/button_config_new_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="24dp"
+            android:text="确认"
+            android:textColor="#70AA39"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
