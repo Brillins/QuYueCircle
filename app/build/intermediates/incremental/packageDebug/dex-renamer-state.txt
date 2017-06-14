@@ -1,0 +1,7 @@
+#Thu Jun 15 00:14:24 CST 2017
+base.0=E\:\\ASProjects\\Library\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3e1a8bb7c83a7628d9b7345de5206b32dd107bb3
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\ASProjects\\Library\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c28d3d0c2b589248d1605b4a53d333a502fc6310\\classes.dex
+base.1=E\:\\ASProjects\\Library\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c28d3d0c2b589248d1605b4a53d333a502fc6310
+file.0=E\:\\ASProjects\\Library\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3e1a8bb7c83a7628d9b7345de5206b32dd107bb3\\classes.dex

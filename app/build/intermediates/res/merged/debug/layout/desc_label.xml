@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:layout_width="wrap_content"
+    android:background="#ffffffff" android:orientation="horizontal"
+    android:id="@+id/dialog">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="添加标签"
+        android:layout_centerHorizontal="true"/>
+    <View
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="@color/devide_line"
+        android:layout_below="@id/title"
+        android:id="@+id/view" />
+
+
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/etname"
+        android:hint="输入添加的标签名"
+        android:layout_marginTop="30dp"/>
+
+
+</RelativeLayout>

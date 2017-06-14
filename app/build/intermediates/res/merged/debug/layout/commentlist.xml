@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:minHeight="20dp"
+    android:background="#CDC5BF"
+    android:id="@+id/u_list"
+    android:layout_gravity="center_horizontal">
+
+        <com.lovejoy.views.view.RoundImageView
+            android:id="@+id/avatar"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:baselineAlignBottom="true"
+            android:paddingLeft="8dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/robot"/>
+        <TextView
+            android:id="@+id/cname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:textColor="#1D1D1C"
+            android:textSize="20sp"
+            android:text="名称"
+            android:width="70dp"
+            android:maxLines="1"
+            android:layout_marginLeft="30dp"
+            />
+
+        <com.lovejoy.core.XLHRatingBar
+            xmlns:xlhRatingBar="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cratingBar"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            xlhRatingBar:canEdit="true"
+            xlhRatingBar:differentSize="false"
+            xlhRatingBar:dividerWidth="5dp"
+            xlhRatingBar:countSelected="2"
+            xlhRatingBar:starCount="3"
+            xlhRatingBar:stateResId="@drawable/comment_ratingbar_selector"
+            xlhRatingBar:widthAndHeight="20dp"
+            android:layout_marginLeft="20dp" />
+
+</LinearLayout>

@@ -29,7 +29,7 @@ public class MainActivity extends FragmentActivity implements
 	private ResideMenuItem itemCredit;
 	private ResideMenuItem itemCircle;
 	private ResideMenuItem itemHistory;
-	private ResideMenuItem itemSetting;
+	//private ResideMenuItem itemSetting;
 	private ResideMenuInfo info;
     private RadioGroup rg;
     private RadioButton rb1,rb2,rb3;
@@ -74,13 +74,13 @@ public class MainActivity extends FragmentActivity implements
 		itemCredit = new ResideMenuItem(this, "信用积分");
 		itemCircle = new ResideMenuItem(this, "关注圈子");
 		itemHistory = new ResideMenuItem(this, "历史记录");
-		itemSetting = new ResideMenuItem(this, "设置");
+		//itemSetting = new ResideMenuItem(this, "设置");
 
 		resideMenu.addMenuItem(itemPerson, ResideMenu.DIRECTION_LEFT);
 		resideMenu.addMenuItem(itemCredit, ResideMenu.DIRECTION_LEFT);
         resideMenu.addMenuItem(itemCircle, ResideMenu.DIRECTION_LEFT);
 		resideMenu.addMenuItem(itemHistory, ResideMenu.DIRECTION_LEFT);
-		resideMenu.addMenuItem(itemSetting, ResideMenu.DIRECTION_LEFT);
+		//resideMenu.addMenuItem(itemSetting, ResideMenu.DIRECTION_LEFT);
 
 		info = new ResideMenuInfo(this, R.drawable.icon_profile, "Lovejoy", "14301000");
 	}
@@ -92,7 +92,7 @@ public class MainActivity extends FragmentActivity implements
         itemCredit.setOnClickListener(this);
         itemCircle.setOnClickListener(this);
         itemHistory.setOnClickListener(this);
-        itemSetting.setOnClickListener(this);
+        //itemSetting.setOnClickListener(this);
 
 		info.setOnClickListener(this);
 	}
@@ -136,12 +136,14 @@ public class MainActivity extends FragmentActivity implements
 			intent.putExtra("flog", "历史记录");
 			intent.setClass(getApplicationContext(), SideMenuShowActivity.class);
 			startActivity(intent);
-		} else if (view == itemSetting) {
-			Intent intent = new Intent();
-			intent.putExtra("flog", "设置");
-			intent.setClass(getApplicationContext(), SideMenuShowActivity.class);
-			startActivity(intent);
-		} else if (view == info) {
+		}
+//		else if (view == itemSetting) {
+//			Intent intent = new Intent();
+//			intent.putExtra("flog", "设置");
+//			intent.setClass(getApplicationContext(), SideMenuShowActivity.class);
+//			startActivity(intent);
+//		}
+		else if (view == info) {
 			Intent intent = new Intent();
 			intent.putExtra("flog", "头像");
 			intent.setClass(getApplicationContext(), SideMenuShowActivity.class);

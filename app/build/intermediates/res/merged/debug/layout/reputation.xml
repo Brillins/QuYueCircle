@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#1079FF"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/back_button"/>
+
+
+        <TextView
+            android:id="@+id/text_view_reputation_degree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="信誉积分"
+            android:textColor="#ffffff"
+            android:textSize="24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_reputation"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="32dp"
+            android:text="100"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/text_view_reputation_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="24dp"
+            android:textColor="#1079FF"
+            android:text="优"/>
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#C9C9CB" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1.8"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="活动"
+            android:textSize="20dp"
+            android:textColor="#1079FF"/>
+
+        <View
+            android:layout_height="match_parent"
+            android:background="#C9C9CB"
+            android:layout_width="5px" />
+
+
+        <TextView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:text="星级"
+        android:textSize="20dp"
+        android:textColor="#1079FF"/>
+
+        <View
+            android:layout_height="match_parent"
+            android:background="#C9C9CB"
+            android:layout_width="5px" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="评价人"
+            android:textSize="20dp"
+            android:textColor="#1079FF"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:background="#C9C9CB" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <ListView
+            android:id="@+id/list_view_reputation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

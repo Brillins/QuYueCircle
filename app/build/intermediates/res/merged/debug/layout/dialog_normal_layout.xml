@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:scrollbarStyle="insideOverlay"
+    android:padding="20.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/dialogstyle"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/text_18_ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:gravity="center"
+            android:text="评论活动"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:background="#CDC5BF"
+            android:orientation="vertical"
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+  >
+
+
+            <TextView
+                android:id="@+id/message"
+                style="@style/text_16_666666"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_marginTop="3dp"
+                android:minHeight="30.0dip"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip"
+                android:paddingTop="0dip"
+                android:text="输入评分"
+                android:background="@drawable/textview"
+                android:layout_weight="0.33"
+                />
+
+
+            <com.example.pc.myapplication.XLHRatingBar
+                xmlns:xlhRatingBar="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ratingBar"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                xlhRatingBar:canEdit="true"
+                xlhRatingBar:differentSize="false"
+                xlhRatingBar:dividerWidth="5dp"
+                xlhRatingBar:countSelected="2"
+                xlhRatingBar:starCount="3"
+                xlhRatingBar:stateResId="@drawable/comment_ratingbar_selector"
+                xlhRatingBar:widthAndHeight="30dp"
+                />
+
+
+            <!--<RatingBar-->
+                <!--android:minHeight="40.0dip"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:numStars="3"-->
+
+                <!--android:id="@+id/rb_normal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dip"-->
+                <!--android:background="@android:color/white"-->
+                <!--style="?android:attr/ratingBarStyleIndicator"/>-->
+
+        <TextView
+            style="@style/text_16_666666"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:minHeight="30.0dip"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip"
+
+            android:text="输入评价详情"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview" />
+        <EditText
+            android:id="@+id/commentcontent"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_marginTop="15dp"
+            android:minLines="3"
+            android:textStyle="normal"
+            android:background="@drawable/textview"
+            android:hint="在此输入评价详情"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_gravity="bottom"
+            android:background="@drawable/dialogstyle"
+            android:gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:minHeight="30dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/positiveButton"
+                style="@style/text_15_ffffff_sdw"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:gravity="center"
+                android:background="@drawable/btn_bg1"
+                android:text="提交" />
+
+            <Button
+                android:id="@+id/negativeButton"
+                style="@style/text_15_666666_sdw"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:gravity="center"
+                android:background="@drawable/btn_bg1"
+                android:text="取消"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
